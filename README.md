@@ -6,15 +6,10 @@
 
 ### 👥 **Team Members**
 
-**Example:**
-
-| Name             | GitHub Handle | Contribution                                                             |
-|------------------|---------------|--------------------------------------------------------------------------|
-| Taylor Nguyen    | @taylornguyen | Data exploration, visualization, overall project coordination            |
-| Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
-| Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
-| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
-| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
+| Name             | GitHub Handle | Contribution                                                             | LinkedIn Account                                 |
+|------------------|---------------|--------------------------------------------------------------------------|--------------------------------------------------|
+| Shirina Daniel   | @shirinadan   | (Data collection, exploratory data analysis (EDA), dataset documentation)| www.linkedin.com/in/shirinadan/                  |
+| Lakshmi Jinkala  |@lakshmijinkala|         (Error-recovery state loop, creative recipe generation)          | www.linkedin.com/in/lakshmijinkala               |
 
 ---
 

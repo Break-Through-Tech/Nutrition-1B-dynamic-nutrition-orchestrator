@@ -1,0 +1,1860 @@
+[
+  {
+    "recipe_id": "protein-oats-upma",
+    "name": "Savory Protein Oats Upma",
+    "cuisine": "Indian",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "oats",
+        "quantity": 50.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "low-fat Greek yogurt",
+        "quantity": 150.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "unflavored whey protein",
+        "quantity": 15.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "mustard seeds",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "curry leaves",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "5-6 leaves",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "green chili",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "minced ginger",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Dry roast the oats in a pan for 3-4 minutes until aromatic; set aside.",
+      "Whisk the Greek yogurt with the whey and 50ml water until smooth to prevent clumping.",
+      "Heat the oil, add mustard seeds, curry leaves, ginger, and green chili; saute 60 seconds.",
+      "Add 100ml water, bring to a boil, reduce heat, and slowly stir in the yogurt-whey mixture.",
+      "Add the toasted oats, stir, cover, and steam on low heat 3-4 minutes until water is absorbed."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Monday and Thursday. Target ~30g protein for the meal."
+  },
+  {
+    "recipe_id": "moong-dal-cheela",
+    "name": "High-Protein Moong Dal Cheela",
+    "cuisine": "Indian",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "moong dal, soaked overnight",
+        "quantity": 60.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "low-fat paneer, crumbled",
+        "quantity": 75.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "coriander",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "green chili",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "salt",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "hing",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "pinch",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Drain the soaked moong dal and blend with green chili, ginger, hing, salt, and minimal water into a smooth batter.",
+      "Season the crumbled paneer with salt, chaat masala, and chopped coriander for the filling.",
+      "Heat a lightly oiled non-stick tawa, pour a ladle of batter, and spread thin in a circle.",
+      "Cook on medium heat until the edges lift, flip, and cook the other side for 1 minute.",
+      "Flip back, add the paneer filling to the center, fold the cheela over, and serve hot."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Tuesday and Friday. Target ~30g protein for the meal."
+  },
+  {
+    "recipe_id": "tofu-scramble-toast",
+    "name": "Tofu Scramble Toast",
+    "cuisine": "Indian",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "extra-firm tofu",
+        "quantity": 150.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "whole wheat bread",
+        "quantity": 2.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": "slices"
+      },
+      {
+        "name": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "kala namak (black salt)",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "cilantro",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "chopped, to taste",
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Drain the tofu, press with a paper towel to remove moisture, and mash coarsely with a fork.",
+      "Heat the oil, optionally add a pinch of cumin seeds, then add the mashed tofu.",
+      "Add turmeric, salt, and kala namak; stir-fry 4-5 minutes on medium heat.",
+      "Toast the bread.",
+      "Top the toast with the warm tofu scramble and garnish with cilantro."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Wednesday and Saturday. Target ~30g protein for the meal."
+  },
+  {
+    "recipe_id": "modified-paneer-paratha",
+    "name": "Modified Paneer Paratha",
+    "cuisine": "Indian",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "whole wheat flour (atta)",
+        "quantity": 50.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "low-fat paneer, grated",
+        "quantity": 100.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "carom seeds (ajwain)",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "red chili powder",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "garam masala",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "ghee",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Knead the atta with water into a soft dough; rest 10 minutes.",
+      "Mix the grated paneer with ajwain, salt, red chili powder, garam masala, and coriander.",
+      "Roll the dough into a disc, place the paneer filling in the center, seal the edges, and flatten gently.",
+      "Roll out into a paratha, taking care not to rupture the dough wrapper.",
+      "Cook on a hot tawa with exactly 1 tsp ghee spread evenly on both sides until golden-brown spots appear."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Sunday only. Target ~30g protein for the meal."
+  },
+  {
+    "recipe_id": "soya-chunks-matar-curry-brown-rice",
+    "name": "Soya Chunks Matar Curry with Brown Rice",
+    "cuisine": "Indian",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "dry soya chunks",
+        "quantity": 60.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "green peas",
+        "quantity": 50.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "brown rice",
+        "quantity": 60.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "onion-tomato gravy base",
+        "quantity": 3.0,
+        "unit": "tbsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": "or 1 onion + 2 tomatoes, pureed"
+      },
+      {
+        "name": "garam masala",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Boil the soya chunks 10 minutes until soft; drain, rinse, and squeeze out all excess water.",
+      "Cook the brown rice using your preferred method and set aside.",
+      "Heat the oil, add the gravy base with ginger-garlic paste, turmeric, coriander powder, and chili powder; cook until the raw smell disappears.",
+      "Add the squeezed soya chunks and peas; toss into the masala for 2 minutes.",
+      "Add 150ml water, cover, simmer 10 minutes, finish with garam masala, and serve with the rice."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Monday and Thursday. Target ~40g protein for the meal."
+  },
+  {
+    "recipe_id": "kadhai-tofu-with-quinoa",
+    "name": "Kadhai Tofu with Quinoa",
+    "cuisine": "Indian",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "extra-firm tofu",
+        "quantity": 200.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "quinoa",
+        "quantity": 60.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "capsicum, diced",
+        "quantity": 0.5,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "onion, diced",
+        "quantity": 0.5,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "kadhai spice mix (crushed coriander seeds / dry red chili)",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Rinse the quinoa and boil in 120ml water with a pinch of salt until fluffy; set aside.",
+      "Cut the tofu into uniform cubes and blot dry.",
+      "Heat the oil, add the crushed kadhai spices, then onions and capsicum; saute on high heat 2 minutes.",
+      "Add tomato puree, turmeric, and salt; cook 2 minutes.",
+      "Fold in the tofu cubes and toss on medium heat 4-5 minutes until coated and heated through; serve with the quinoa."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Tuesday and Friday. Target ~40g protein for the meal."
+  },
+  {
+    "recipe_id": "soya-keema-masala-with-roti",
+    "name": "Soya Keema Masala with Roti",
+    "cuisine": "Indian",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "dry soya granules",
+        "quantity": 60.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "atta, for 2 rotis",
+        "quantity": 50.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "onion-tomato gravy base",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "as needed",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "kasuri methi",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "garam masala",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Soak the soya granules in hot water 15 minutes, then drain and press thoroughly to remove all water.",
+      "Knead the atta into dough, roll into two thin rotis, and cook on a hot tawa without oil.",
+      "Heat the oil, add ginger-garlic paste and the gravy base, and saute with coriander, cumin, and chili powder.",
+      "Add the squeezed soya granules and stir-fry 3-4 minutes until dry.",
+      "Add 100ml water, cover, cook 5-7 minutes, crumble kasuri methi over the top, and serve with the rotis."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Wednesday and Saturday. Target ~40g protein for the meal."
+  },
+  {
+    "recipe_id": "chickpea-chole-biryani",
+    "name": "Chickpea (Chole) Biryani",
+    "cuisine": "Indian",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "kabuli chana, soaked and boiled",
+        "quantity": 80.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "basmati rice",
+        "quantity": 50.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "biryani spice mix",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "low-fat curd",
+        "quantity": 150.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "mint leaves",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "cucumber, grated",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Boil the basmati rice until 80% cooked; drain and set aside.",
+      "Heat the oil, saute onions until golden, then add ginger-garlic paste, tomato puree, and biryani masala.",
+      "Add the boiled kabuli chana and cook 5 minutes until thick.",
+      "Layer the partially cooked rice over the chana masala, scatter mint leaves, and add a splash of water.",
+      "Cover tightly and cook on ultra-low heat (dum) 12-15 minutes.",
+      "Whisk the curd with grated cucumber and roasted cumin powder to make the side raita."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Sunday only. Target ~40g protein for the meal."
+  },
+  {
+    "recipe_id": "paneer-bhurji-with-roti",
+    "name": "Paneer Bhurji with Whole Wheat Roti",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "low-fat paneer",
+        "quantity": 150.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "atta, for 2 rotis",
+        "quantity": 50.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "onion, finely chopped",
+        "quantity": 1.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "tomato, finely chopped",
+        "quantity": 1.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "green chili",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "turmeric",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "ghee",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Knead dough from the atta and roll/cook 2 plain rotis.",
+      "Heat the ghee, saute onions and green chilies until translucent.",
+      "Add tomatoes, turmeric, and salt; cook until the tomatoes soften completely.",
+      "Crumble the paneer directly into the pan and stir well to integrate with the masala.",
+      "Cook on medium-low heat no more than 3-4 minutes to keep the paneer moist; garnish with coriander."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Monday and Thursday. Target ~35g+ protein for the meal."
+  },
+  {
+    "recipe_id": "black-chana-chaat-sprouts",
+    "name": "Black Chana Chaat & Sprouts",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "kala chana, soaked overnight and boiled",
+        "quantity": 80.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "mixed sprouts, steamed",
+        "quantity": 50.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "cucumber, chopped",
+        "quantity": 0.5,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "tomato, chopped",
+        "quantity": 1.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": "small"
+      },
+      {
+        "name": "chaat masala",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "lemon juice",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "olive oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Drain the boiled kala chana of all surface liquid and cool to room temperature.",
+      "Lightly steam the mixed sprouts 3 minutes to remove raw starchiness, then cool.",
+      "Combine the chana, sprouts, cucumber, and tomatoes in a large bowl.",
+      "Drizzle exactly 1 tsp olive oil over the mixture.",
+      "Season with chaat masala, black salt, roasted cumin powder, and lemon juice; toss and serve cold."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Tuesday and Friday. Target ~35g+ protein for the meal."
+  },
+  {
+    "recipe_id": "high-protein-dal-makhani-paneer",
+    "name": "High-Protein Dal Makhani & Paneer",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "whole black urad dal",
+        "quantity": 40.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "rajma",
+        "quantity": 10.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "low-fat milk",
+        "quantity": 50.0,
+        "unit": "ml",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "low-fat paneer",
+        "quantity": 120.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "ginger, julienned",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Pressure cook the soaked urad dal and rajma with salt and water ~6-8 whistles until mashable; mash some against the pot wall for creaminess.",
+      "Heat the oil, add ginger-garlic paste and a small amount of tomato puree, and cook until dark red.",
+      "Pour the mashed dal into the pan and simmer 20-30 minutes, gradually adding the milk to develop a creamy emulsion.",
+      "Cut the paneer into thick slabs, season with salt and chili, and sear dry on a hot non-stick pan until lightly browned.",
+      "Serve the dal topped with ginger juliennes alongside the grilled paneer."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Wednesday and Saturday. Target ~35g+ protein for the meal."
+  },
+  {
+    "recipe_id": "soya-tofu-stir-fry",
+    "name": "Soya & Tofu Stir-Fry",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "dry soya chunks, boiled and squeezed",
+        "quantity": 40.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "extra-firm tofu, cubed",
+        "quantity": 100.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "broccoli and bell peppers, mixed",
+        "quantity": 1.0,
+        "unit": "cup",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "soy sauce",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "vinegar",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "garlic, minced",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "oil",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Prepare the soya chunks by boiling, rinsing, and squeezing thoroughly; halve if large.",
+      "Heat the oil in a wok on high heat, add minced garlic, and saute 30 seconds.",
+      "Add broccoli and bell pepper strips; stir-fry aggressively 2-3 minutes until bright but crisp.",
+      "Add the tofu cubes and squeezed soya chunks.",
+      "Pour the soy sauce and vinegar around the edges of the wok and toss 2 minutes until glazed."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Sunday only. Target ~35g+ protein for the meal."
+  },
+  {
+    "recipe_id": "roasted-chickpeas-almonds",
+    "name": "Roasted Chickpeas & Almonds",
+    "cuisine": "Indian",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "dry-roasted chana",
+        "quantity": 40.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "almonds",
+        "quantity": 10.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Combine and consume as a dry, ready-to-go portion."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Monday and Thursday. Target ~15g+ protein for the meal."
+  },
+  {
+    "recipe_id": "protein-shake",
+    "name": "Protein Shake",
+    "cuisine": "Indian",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "whey isolate",
+        "quantity": 1.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": "1 scoop"
+      },
+      {
+        "name": "soy milk",
+        "quantity": 200.0,
+        "unit": "ml",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "chia seeds",
+        "quantity": 10.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Blend the whey isolate into the soy milk, stir in the chia seeds, and let hydrate 5 minutes before drinking."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Tuesday and Friday. Target ~15g+ protein for the meal."
+  },
+  {
+    "recipe_id": "spiced-edamame",
+    "name": "Spiced Edamame",
+    "cuisine": "Indian",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "whole edamame pods",
+        "quantity": 150.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "sea salt",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "red chili flakes",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Steam the edamame pods 5 minutes, then toss immediately in sea salt and red chili flakes; shell before eating."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Wednesday and Saturday. Target ~15g+ protein for the meal."
+  },
+  {
+    "recipe_id": "roasted-soya-nuts",
+    "name": "Roasted Soya Nuts",
+    "cuisine": "Indian",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "dry-roasted soya nuts",
+        "quantity": 45.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Weigh out a clean 45g portion and consume directly."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery List",
+    "notes": "Served Sunday only. Target ~15g+ protein for the meal."
+  },
+  {
+    "recipe_id": "spicy-paneer-bhurji-adult",
+    "name": "Spicy Paneer Bhurji (Adult Path)",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "low-fat paneer, crumbled",
+        "quantity": 600.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "onions, finely chopped",
+        "quantity": 2.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 3.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "green chilies",
+        "quantity": 2.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "ginger-garlic paste",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "turmeric",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "red chili powder",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "garam masala",
+        "quantity": 2.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "mustard oil",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "coriander leaves",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "fresh, for garnish",
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Heat oil in a heavy skillet; saute onions and ginger-garlic paste until caramelized.",
+      "Add tomatoes, chilies, and dry spices; cook until the oil begins to separate slightly.",
+      "Toss in the crumbled paneer and stir rapidly on high heat 3-4 minutes to avoid moisture loss.",
+      "Garnish with coriander; serve with 2 measured oats-wheat rotis per adult."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery Matrix",
+    "notes": "Monday dinner, adult path (dual-path night; kids get a separate mild version). Serves 4 adults."
+  },
+  {
+    "recipe_id": "mild-paneer-tikka-skewers-kids",
+    "name": "Mild Paneer Tikka Skewers + Soft Paratha (Kids Path)",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein",
+      "kid-friendly"
+    ],
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "regular paneer, cubed thick",
+        "quantity": 400.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "mild Greek yogurt",
+        "quantity": 1.0,
+        "unit": "cup",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "Kashmiri red chili powder",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "cumin powder",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "chaat masala",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "bell peppers, diced",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "onions, diced",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "soft readymade parathas",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "as needed",
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Whisk yogurt with Kashmiri chili, cumin, and chaat masala; marinate paneer cubes and veggies 30 minutes.",
+      "Thread onto wooden skewers.",
+      "Sear on a non-stick tawa with minimal butter until golden on all edges; serve with heated soft parathas."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery Matrix",
+    "notes": "Monday dinner, kids path (dual-path night). Serves 4 kids."
+  },
+  {
+    "recipe_id": "kala-chana-chaat-sprouted-moong-salad-matrix",
+    "name": "Kala Chana Chaat & Sprouted Moong Salad Matrix (Adult Path)",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "kala chana, boiled",
+        "quantity": 600.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "raw sprouted moong",
+        "quantity": 400.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "cucumber, large, diced",
+        "quantity": 1.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "tomatoes, diced",
+        "quantity": 2.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "red onion, diced",
+        "quantity": 1.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "green chilies",
+        "quantity": 2.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "chaat masala",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "roasted cumin powder",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "lemon juice, freshly squeezed",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "black salt",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Combine boiled chana and raw sprouts in a large mixing bowl.",
+      "Toss in the diced vegetables and green chilies.",
+      "Drizzle lemon juice, sprinkle dry spices, and massage the flavors together; serve chilled."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery Matrix",
+    "notes": "Tuesday dinner, adult path (dual-path night). Serves 4 adults."
+  },
+  {
+    "recipe_id": "cheesy-moong-dal-quesadillas-kids",
+    "name": "Cheesy Moong Dal Quesadillas (Kids Path)",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein",
+      "kid-friendly"
+    ],
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "moong dal, soaked, ground into paste",
+        "quantity": 1.0,
+        "unit": "cup",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "flour tortillas",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "as needed",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "mozzarella/cheddar shredded blend",
+        "quantity": 1.0,
+        "unit": "cup",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "sweet corn kernels, mild",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Spread a thin layer of the moong dal batter onto a hot greased tawa to form a mild cheela base; flip once cooked.",
+      "Sprinkle one half with cheese blend and sweet corn.",
+      "Fold a tortilla over it (or fold the cheela itself) and press until the cheese melts; slice into triangles."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery Matrix",
+    "notes": "Tuesday dinner, kids path (dual-path night). Serves 4 kids."
+  },
+  {
+    "recipe_id": "high-protein-dal-makhani-matrix-adult",
+    "name": "High-Protein Dal Makhani Matrix (Adult Path)",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "whole black urad dal",
+        "quantity": 400.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "rajma, soaked overnight",
+        "quantity": 100.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "soya chunks, processed into fine grains",
+        "quantity": 200.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "tomato puree",
+        "quantity": 2.0,
+        "unit": "cup",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "ginger-garlic paste",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "degi mirch",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "garam masala",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "fat-free Greek yogurt",
+        "quantity": 1.0,
+        "unit": "cup",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "spray oil",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "minimal",
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Pressure cook the urad dal, rajma, and processed soya grains together 6-8 whistles until creamed.",
+      "In a separate pan, saute ginger-garlic paste in minimal oil, add tomato puree and spices, and cook down.",
+      "Pour the creamed dal into the gravy and simmer 45 minutes; off heat, fold in Greek yogurt for a creamy texture."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery Matrix",
+    "notes": "Wednesday dinner, adult path (dual-path night). Serves 4 adults."
+  },
+  {
+    "recipe_id": "creamy-butter-dal-jeera-rice-kids",
+    "name": "Creamy Butter Dal with Jeera Rice (Kids Path)",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein",
+      "kid-friendly"
+    ],
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "yellow moong/toor dal",
+        "quantity": 1.0,
+        "unit": "cup",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "premium butter",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "cumin seeds",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "turmeric",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "pinch",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "salt",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "long-grain basmati rice",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "as needed",
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Boil the dal with turmeric and salt until completely soft and smooth.",
+      "Melt butter in a small pan, add cumin seeds until they splutter, and pour over the dal as a tadka; serve over jeera basmati rice."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery Matrix",
+    "notes": "Wednesday dinner, kids path (dual-path night). Serves 4 kids."
+  },
+  {
+    "recipe_id": "saag-paneer-universal",
+    "name": "Low-Fat Paneer & Spinach Curry (Saag Paneer)",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "fresh spinach",
+        "quantity": 1.0,
+        "unit": "kg",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "low-fat paneer, cubed and seared",
+        "quantity": 800.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "onions",
+        "quantity": 2.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "ginger-garlic paste",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "cumin seeds",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "garam masala",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "kasuri methi",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Blanch spinach 2 minutes, shock in ice water, then puree with minimal water.",
+      "Saute cumin seeds, onions, and ginger-garlic paste; add the spinach puree and spices and simmer 10 minutes.",
+      "Fold in the paneer cubes gently and finish with crushed kasuri methi; serve with whole wheat rotis."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery Matrix",
+    "notes": "Thursday dinner, universal (whole family, no adult/kids split). Serves 4."
+  },
+  {
+    "recipe_id": "tofu-kofta-curry-quinoa-rice-universal",
+    "name": "Tofu Kofta Curry in Light Tomato Gravy + Quinoa Rice",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "firm tofu, mashed",
+        "quantity": 800.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "soy flour",
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": "binder"
+      },
+      {
+        "name": "garam masala",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "fresh tomato puree",
+        "quantity": 4.0,
+        "unit": "cup",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "onion paste",
+        "quantity": 1.0,
+        "unit": "piece",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "ginger-garlic paste",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "quinoa-rice blend",
+        "quantity": 0.5,
+        "unit": "cup",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": "per person"
+      }
+    ],
+    "instructions": [
+      "Mix mashed tofu, soy flour, salt, and garam masala; roll into dense koftas and bake or air-fry at 400F (200C) until firm.",
+      "Simmer onion paste, ginger-garlic paste, and tomato puree with mild aromatics for the curry base; drop in the koftas 5 minutes before serving alongside the quinoa-rice blend."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery Matrix",
+    "notes": "Friday dinner, universal (whole family, no adult/kids split). Serves 4."
+  },
+  {
+    "recipe_id": "mixed-dal-chilla-wraps-universal",
+    "name": "Mixed Dal Chilla Wraps with Mint Chutney",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "split moong dal",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "equal parts, soaked overnight and ground",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "split chana dal",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "equal parts, soaked overnight and ground",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "split urad dal",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "equal parts, soaked overnight and ground",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "hing",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "carom seeds (ajwain)",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "mint-cilantro-yogurt chutney",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "as needed",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "shredded cucumber",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "shredded carrots",
+        "quantity": null,
+        "unit": null,
+        "quantity_text": "to taste",
+        "fdc_id": null,
+        "notes": null
+      }
+    ],
+    "instructions": [
+      "Season the mixed dal batter with hing, salt, and ajwain; ladle onto a hot flat-top and spread thin, cooking until crispy on both sides.",
+      "Spread mint chutney across the interior, layer with shredded vegetables, roll tightly, and slice down the center."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery Matrix",
+    "notes": "Saturday dinner, universal (whole family, no adult/kids split). Serves 4."
+  },
+  {
+    "recipe_id": "soya-tofu-vegetable-stir-fry-glaze-universal",
+    "name": "Soya & Tofu Vegetable Stir-Fry with Garlic-Ginger Glaze",
+    "cuisine": "Indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "high-protein"
+    ],
+    "servings": 4,
+    "ingredients": [
+      {
+        "name": "large soya chunks, triple-boiled and hard-squeezed",
+        "quantity": 500.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "firm tofu, cubed",
+        "quantity": 500.0,
+        "unit": "g",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "broccoli florets",
+        "quantity": 2.0,
+        "unit": "cup",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "mixed bell peppers",
+        "quantity": 2.0,
+        "unit": "cup",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "low-sodium soy sauce",
+        "quantity": 4.0,
+        "unit": "tbsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "garlic, minced",
+        "quantity": 2.0,
+        "unit": "tbsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "ginger, minced",
+        "quantity": 1.0,
+        "unit": "tbsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": null
+      },
+      {
+        "name": "cornstarch",
+        "quantity": 1.0,
+        "unit": "tsp",
+        "quantity_text": null,
+        "fdc_id": null,
+        "notes": "dissolved in 2 tbsp water"
+      }
+    ],
+    "instructions": [
+      "Sear tofu cubes and pre-prepped soya chunks in a smoking-hot wok with minimal oil until crispy.",
+      "Toss in broccoli and bell peppers; flash fry 3 minutes to preserve texture, then add soy sauce, ginger, and garlic and stir rapidly.",
+      "Pour the cornstarch slurry into the center of the wok to bind the sauce into a glossy glaze coating everything."
+    ],
+    "source_doc": "High-Protein Indian Vegetarian Meal Plan & Grocery Matrix",
+    "notes": "Sunday dinner, universal (whole family, no adult/kids split). Serves 4."
+  }
+]
