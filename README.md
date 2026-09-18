@@ -10,6 +10,7 @@
 |------------------|---------------|--------------------------------------------------------------------------|--------------------------------------------------|
 | Shirina Daniel   | @shirinadan   | (Data collection, exploratory data analysis (EDA), dataset documentation)| www.linkedin.com/in/shirinadan/                  |
 | Lakshmi Jinkala  |@lakshmijinkala|         (Error-recovery state loop, creative recipe generation)          | www.linkedin.com/in/lakshmijinkala               |
+| Sadia Fathima    |@sluggysadi    | (Build the local recipe seed database,  Build the Streamlit UI)          | https://www.linkedin.com/in/sadiafathima         |
 
 ---
 
