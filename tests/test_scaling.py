@@ -1,10 +1,12 @@
 import pytest
 
 from nutrition_engine.scaling import (
+    ConstraintTargetError,
     InvalidScaleFactorError,
     scale_ingredient_by_factor,
     scale_ingredient_to_quantity,
     scale_for_servings,
+    scale_recipe_to_targets,
 )
 
 
@@ -143,3 +145,28 @@ def test_scaled_ingredient_can_be_serialized_to_dictionary():
     assert data["scaled_quantity_g"] == 200.0
     assert data["scale_factor"] == 2.0
     assert data["macros"]["protein_g"] == 62.0
+
+
+def test_scale_recipe_to_protein_target_under_calorie_limit():
+    # This is the handoff target: at least 140 g protein while staying below
+    # the 2,000 kcal daily ceiling.
+    result = scale_recipe_to_targets(
+        [("chicken breast", 200), ("brown rice", 100)],
+        target_protein_g=140,
+        max_calories=2_000,
+    )
+
+    assert result.protein_g >= 140.0
+    assert result.calories < 2_000.0
+    assert result.ingredients[0].scaled_quantity_g == 432.77
+
+
+def test_scale_recipe_rejects_unachievable_calorie_constraint():
+    # The optimizer must report an impossible constraint pair, not overshoot
+    # the calorie limit to satisfy protein.
+    with pytest.raises(ConstraintTargetError):
+        scale_recipe_to_targets(
+            [("salmon", 100)],
+            target_protein_g=140,
+            max_calories=1_000,
+        )

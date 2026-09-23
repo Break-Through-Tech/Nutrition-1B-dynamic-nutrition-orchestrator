@@ -8,6 +8,7 @@ from nutrition_engine.macro_math import (
 
 
 def test_chicken_breast_baseline_100g():
+    # The 100 g case verifies the canonical per-100 g record directly.
     result = calculate_macros("chicken breast", 100)
 
     assert result.ingredient == "chicken breast"
@@ -37,6 +38,7 @@ def test_salmon_150g():
 
 
 def test_input_normalization_handles_case_and_whitespace():
+    # User-entered formatting must not change deterministic results.
     clean_input = calculate_macros("chicken breast", 100)
     messy_input = calculate_macros("  CHICKEN    BREAST  ", 100)
 
@@ -74,6 +76,7 @@ def test_unknown_ingredient_raises_clear_error():
     ],
 )
 def test_invalid_quantities_raise_error(invalid_quantity):
+    # Invalid quantities are rejected before arithmetic can create bad totals.
     with pytest.raises(InvalidQuantityError):
         calculate_macros("salmon", invalid_quantity)
 

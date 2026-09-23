@@ -176,3 +176,30 @@ Run all tests:
 ```bash
 pytest
 ```
+
+The evaluation helpers are available from `nutrition_engine.benchmarks`:
+
+- `calculate_mae_percent`: percentage mean absolute error with a 2% target
+- `calculate_f1_score`: dependency-free binary F1 calculation
+- `track_constraint_compliance`: per-meal and aggregate protein/calorie compliance
+
+Recipe quantities can be scaled with `scale_recipe_to_targets`. It scales all
+ingredients uniformly to meet a minimum protein target and raises an error when
+the calorie cap cannot be satisfied. The default targets are 140 g protein and
+2,000 kcal.
+
+## Restriction-aware planning
+
+`nutrition_engine.meal_planner` provides a deterministic recipe selector for the
+local `data/recipes.json` seed bank. It supports vegetarian, vegan, dairy-free,
+nut-free, and gluten-free restrictions. An optional backend can rank the already
+filtered candidates, but the planner validates every returned recipe ID and
+falls back to deterministic selection when the backend is unavailable or unsafe.
+
+For local LLM selection, pass `OllamaBackend()` to `MealPlanningAgent`. Ollama
+is optional; if its local endpoint is unavailable, the same deterministic
+restriction-filtered plan is returned.
+
+The planner does not invent macros for recipe ingredients missing from the
+canonical nutrition catalog. Those ingredients must be resolved through the
+USDA pipeline before macro totals are reported.

@@ -3,6 +3,7 @@ from dataclasses import dataclass
 
 @dataclass(frozen=True)
 class IngredientNutrition:
+    # Every value is normalized to a 100 g basis for deterministic scaling.
     name: str
     calories_per_100g: float
     protein_g_per_100g: float
@@ -10,6 +11,8 @@ class IngredientNutrition:
     fat_g_per_100g: float = 0.0
 
 
+# Keep this catalog explicit and reviewable; the math engine must not invent
+# nutrient values for ingredients that have not been verified here.
 INGREDIENTS: dict[str, IngredientNutrition] = {
     "chicken breast": IngredientNutrition(
         name="chicken breast",

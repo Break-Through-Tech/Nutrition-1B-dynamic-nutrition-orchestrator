@@ -20,8 +20,21 @@ class MacroTotals:
     carbs_g: float
     fat_g: float
 
+    def to_dict(self) -> dict[str, float | str]:
+        # Keep calculation results serializable for APIs, logs, and agent tools.
+        return {
+            "ingredient": self.ingredient,
+            "quantity_g": self.quantity_g,
+            "calories": self.calories,
+            "protein_g": self.protein_g,
+            "carbs_g": self.carbs_g,
+            "fat_g": self.fat_g,
+        }
+
 
 def normalize_ingredient_name(name: str) -> str:
+    # Canonicalization lets user-entered case and repeated whitespace resolve
+    # to the same trusted ingredient record.
     if not isinstance(name, str) or not name.strip():
         raise IngredientNotFoundError("Ingredient name must be a non-empty string.")
 
@@ -47,6 +60,7 @@ def validate_quantity_g(quantity_g: float) -> float:
         raise InvalidQuantityError("Quantity must be a numeric value in grams.") from error
 
     if quantity <= 0:
+        # Zero and negative quantities would produce misleading nutrition data.
         raise InvalidQuantityError("Quantity must be greater than zero grams.")
 
     return quantity
@@ -66,6 +80,8 @@ def calculate_macros(ingredient_name: str, quantity_g: float) -> MacroTotals:
     """
     ingredient = get_ingredient(ingredient_name)
     grams = validate_quantity_g(quantity_g)
+    # All source records are expressed per 100 g, so every nutrient uses one
+    # shared factor and cannot drift through separate arithmetic paths.
     scale_factor = grams / 100.0
 
     return MacroTotals(
