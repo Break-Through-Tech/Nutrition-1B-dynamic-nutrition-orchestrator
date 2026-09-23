@@ -8,7 +8,7 @@
 
 | Name             | GitHub Handle | Contribution                                                             | LinkedIn Account                                 |
 |------------------|---------------|--------------------------------------------------------------------------|--------------------------------------------------|
-| Shirina Daniel   | @shirinadan   | (Data collection, exploratory data analysis (EDA), dataset documentation)| www.linkedin.com/in/shirinadan/                  |
+| Shirina Daniel   | @shirinadan   | (Deterministic macro calculation, recipe scaling, dietary restriction filtering, benchmark evaluation, automated testing)| www.linkedin.com/in/shirinadan/                  |
 | Lakshmi Jinkala  |@lakshmijinkala|         (Error-recovery state loop, creative recipe generation)          | www.linkedin.com/in/lakshmijinkala               |
 
 ---
