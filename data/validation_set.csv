@@ -1,0 +1,31 @@
+raw_name,tier,should_match,expected_fdc_id,expected_description,notes
+oats,direct,yes,2708489,"Oats, raw",Plain English term indexed directly by USDA
+quinoa,direct,yes,168874,"Quinoa, uncooked",Recipe quantities are dry weight; cooked record P=4.4 vs uncooked 14.1
+brown rice,direct,yes,2710789,"Rice, brown, cooked, as ingredient",Raw brown rice grain was not retrieved; closest correct record
+almonds,direct,yes,2707485,"Almonds, NFS",Plain almonds; 'flavored' adds sugar
+chia seeds,direct,yes,2707590,Chia seeds,Plain English term
+olive oil,direct,yes,2710186,Olive oil,Plain English term
+hing,synonym,no,,NO CORRECT USDA RECORD,USDA has no asafoetida entry; searched 'asafoetida' and 'hing'
+rajma,synonym,yes,2707379,"Kidney beans, NFS",Hindi name for kidney beans
+kasuri methi,synonym,no,,NO CORRECT USDA RECORD,USDA has fenugreek SEED only; kasuri methi is dried leaves
+kala namak (black salt),synonym,yes,2587261,BLACK SALT,Branded is the only correct record for black salt
+whole wheat flour (atta),synonym,yes,790085,"Flour, whole wheat, unenriched",Parenthetical is the Hindi term; head is searchable
+ghee,synonym,yes,171314,"Butter, Clarified butter (ghee)",Clarified butter; USDA wording differs
+degi mirch,synonym,yes,171329,"Spices, paprika",Closest USDA analogue to Kashmiri mild chili
+carom seeds (ajwain),synonym,no,,NO CORRECT USDA RECORD,USDA has no carom/ajwain entry
+dry soya chunks,synonym,yes,2707451,"Textured vegetable protein, dry",Textured vegetable protein in USDA terms
+"moong dal, soaked overnight",prep_note,yes,174256,"Mung beans, mature seeds, raw",Recipe uses 60g dry; raw P=23.9 vs cooked 6.52
+"low-fat paneer, crumbled",prep_note,yes,2705740,"Cheese, paneer",Prep state plus a macro-relevant modifier
+"extra-firm tofu, cubed",prep_note,yes,174290,"Tofu, extra firm, prepared with nigari",Branded extra-firm records disagree (P=5.88 to 9.41)
+"kala chana, soaked overnight and boiled",prep_note,yes,2134686,KALA CHANA,Branded is the only correct record
+"kabuli chana, soaked and boiled",prep_note,yes,2707414,"Chickpeas, NFS",Distinct from kala chana
+"garlic, minced",prep_note,yes,2709786,"Garlic, raw",Short prep tail
+low-fat Greek yogurt,modifier,yes,2705423,"Yogurt, Greek, low fat milk, plain",Curated preferred over branded label values
+unflavored whey protein,modifier,yes,173180,"Beverages, Protein powder whey based",Generic whey powder; curated
+low-sodium soy sauce,modifier,yes,2707443,"Soy sauce, reduced sodium",Sodium variant exists as its own record
+fat-free Greek yogurt,modifier,yes,2076798,FAT-FREE GREEK YOGURT,No curated fat-free Greek record retrieved
+whole black urad dal,modifier,yes,2168881,WHOLE BLACK GRAM,USDA lacks a curated urad dal record
+kadhai spice mix (crushed coriander seeds / dry red chili),composite,no,,,Recipe sub-component; no single FDC ID is correct
+onion-tomato gravy base,composite,no,,,Prepared base; must return no match
+mint-cilantro-yogurt chutney,composite,no,,,Multi-ingredient condiment
+quinoa-rice blend,composite,no,,,Two distinct grains; cannot map to one record

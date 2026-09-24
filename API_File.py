@@ -36,6 +36,11 @@ class USDAFood(BaseModel):
 
     fdc_id: int # fdc_id is USDA's unique ID for this food.
     description: str # description is the food name returned by USDA.
+    # USDA's dataType: "Foundation" and "SR Legacy" are lab-analyzed generic
+    # foods, "Branded" are commercial products. Ingredient matching needs this
+    # to prefer curated records over branded ones. Optional so older callers
+    # are unaffected.
+    data_type: str | None = None
     nutrients_per_100g: NutrientsPer100g # Nutrient values are kept together in their own validated model.
 
 
@@ -91,6 +96,7 @@ class USDAClient:
             USDAFood(
                 fdc_id=food["fdcId"],
                 description=food["description"],
+                data_type=food.get("dataType"),
                 nutrients_per_100g=_nutrient_amounts(food),
             )
             for food in payload.get("foods", [])
