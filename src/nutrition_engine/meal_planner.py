@@ -11,8 +11,11 @@ import re
 from urllib.error import URLError
 from urllib.request import Request, urlopen
 from dataclasses import dataclass
+from itertools import product
 from pathlib import Path
-from typing import Protocol, Sequence
+from typing import Callable, Protocol, Sequence
+
+from .macro_math import IngredientNotFoundError, InvalidQuantityError, MacroTotals, calculate_macros
 
 
 RESTRICTION_TERMS: dict[str, tuple[str, ...]] = {
@@ -71,6 +74,122 @@ class MealPlanResult:
             "source": self.source,
             "warnings": list(self.warnings),
         }
+
+
+@dataclass(frozen=True)
+class WeeklyMealPlanRequest:
+    restrictions: tuple[str, ...] = ()
+    excluded_ingredients: tuple[str, ...] = ()
+    meal_types: tuple[str, ...] = ("breakfast", "lunch", "dinner")
+    days: int = 7
+    servings: int = 1
+    target_protein_g_per_day: float | None = 140.0
+    max_calories_per_day: float | None = 2_000.0
+    no_repeat_days: int = 2
+
+    def __post_init__(self) -> None:
+        if self.days <= 0:
+            raise ValueError("days must be greater than zero.")
+        if self.servings <= 0:
+            raise ValueError("servings must be greater than zero.")
+        if self.no_repeat_days < 0:
+            raise ValueError("no_repeat_days cannot be negative.")
+        if not self.meal_types or any(not meal_type.strip() for meal_type in self.meal_types):
+            raise ValueError("At least one non-empty meal type is required.")
+        if len({normalize_text(meal_type) for meal_type in self.meal_types}) != len(self.meal_types):
+            raise ValueError("meal_types cannot contain duplicates.")
+        for target in (self.target_protein_g_per_day, self.max_calories_per_day):
+            if target is not None and target <= 0:
+                raise ValueError("Nutrition targets must be greater than zero.")
+        if any(not ingredient.strip() for ingredient in self.excluded_ingredients):
+            raise ValueError("Excluded ingredients cannot be empty.")
+
+
+@dataclass(frozen=True)
+class WeeklyMealPlanResult:
+    days: tuple[dict, ...]
+    weekly_totals: dict[str, float | bool | None]
+    rejected: tuple[dict[str, str], ...]
+    source: str
+    warnings: tuple[str, ...] = ()
+
+    def to_dict(self) -> dict:
+        return {
+            "days": list(self.days),
+            "weekly_totals": self.weekly_totals,
+            "rejected": list(self.rejected),
+            "source": self.source,
+            "warnings": list(self.warnings),
+        }
+
+
+def _recipe_nutrition(
+    recipe: dict,
+    servings: int,
+    macro_calculator: Callable[[str, float], MacroTotals],
+) -> dict:
+    unresolved: list[str] = []
+    totals = {"calories": 0.0, "protein_g": 0.0, "carbs_g": 0.0, "fat_g": 0.0}
+    ingredients = recipe.get("ingredients", [])
+    try:
+        recipe_servings = float(recipe.get("servings", 1))
+        if recipe_servings <= 0:
+            raise ValueError
+        scale = servings / recipe_servings
+    except (TypeError, ValueError, ZeroDivisionError):
+        scale = 1.0
+        unresolved.append("recipe servings")
+
+    if not ingredients:
+        unresolved.append("recipe ingredients")
+
+    for ingredient in ingredients:
+        name = ingredient.get("name", "")
+        quantity = ingredient.get("quantity")
+        unit = normalize_text(ingredient.get("unit") or "")
+        if not isinstance(name, str) or not name.strip():
+            unresolved.append("unnamed ingredient")
+            continue
+        if unit not in {"g", "gram", "grams"} or quantity is None:
+            unresolved.append(name)
+            continue
+        try:
+            macros = macro_calculator(name, float(quantity) * scale)
+        except (IngredientNotFoundError, InvalidQuantityError, KeyError, TypeError, ValueError):
+            unresolved.append(name)
+            continue
+        totals["calories"] += macros.calories
+        totals["protein_g"] += macros.protein_g
+        totals["carbs_g"] += macros.carbs_g
+        totals["fat_g"] += macros.fat_g
+
+    complete = not unresolved
+    return {
+        "complete": complete,
+        "calories": round(totals["calories"], 2) if complete else None,
+        "protein_g": round(totals["protein_g"], 2) if complete else None,
+        "carbs_g": round(totals["carbs_g"], 2) if complete else None,
+        "fat_g": round(totals["fat_g"], 2) if complete else None,
+        "unresolved_ingredients": sorted(set(unresolved)),
+    }
+
+
+def _recipe_for_servings(recipe: dict, servings: int) -> dict:
+    scaled = dict(recipe)
+    try:
+        factor = servings / float(recipe.get("servings", 1))
+    except (TypeError, ValueError, ZeroDivisionError):
+        factor = 1.0
+    scaled_ingredients = []
+    for ingredient in recipe.get("ingredients", []):
+        scaled_ingredient = dict(ingredient)
+        quantity = scaled_ingredient.get("quantity")
+        if isinstance(quantity, (int, float)):
+            scaled_ingredient["quantity"] = round(quantity * factor, 2)
+        scaled_ingredients.append(scaled_ingredient)
+    scaled["ingredients"] = scaled_ingredients
+    scaled["servings"] = servings
+    return scaled
 
 
 class OllamaBackend:
@@ -185,11 +304,17 @@ def deterministic_plan(recipes: Sequence[dict], request: MealPlanRequest) -> Mea
 
 
 class MealPlanningAgent:
-    """Use an optional LLM selector while enforcing deterministic guardrails."""
+    """Plan meals with optional recipe ranking and deterministic nutrition math."""
 
-    def __init__(self, recipes: Sequence[dict], backend: PlannerBackend | None = None) -> None:
+    def __init__(
+        self,
+        recipes: Sequence[dict],
+        backend: PlannerBackend | None = None,
+        macro_calculator: Callable[[str, float], MacroTotals] = calculate_macros,
+    ) -> None:
         self.recipes = tuple(recipes)
         self.backend = backend
+        self.macro_calculator = macro_calculator
 
     def plan(self, request: MealPlanRequest) -> MealPlanResult:
         accepted, rejected = filter_recipes(self.recipes, request)
@@ -226,6 +351,213 @@ class MealPlanningAgent:
                 (f"LLM selection unavailable: {error}",),
             )
 
+    def plan_week(self, request: WeeklyMealPlanRequest) -> WeeklyMealPlanResult:
+        safe_recipes, rejected = filter_recipes(
+            self.recipes,
+            MealPlanRequest(restrictions=request.restrictions, max_recipes=max(1, len(self.recipes))),
+        )
+        excluded_terms = tuple(normalize_text(item) for item in request.excluded_ingredients)
+        eligible_recipes = []
+        for recipe in safe_recipes:
+            ingredient_names = [
+                normalize_text(ingredient.get("name", ""))
+                for ingredient in recipe.get("ingredients", [])
+            ]
+            conflict = next(
+                (term for term in excluded_terms if any(term in name for name in ingredient_names)),
+                None,
+            )
+            if conflict:
+                rejected.append({
+                    "recipe_id": recipe.get("recipe_id", ""),
+                    "reason": f"excluded ingredient: {conflict}",
+                })
+            else:
+                eligible_recipes.append(recipe)
+
+        nutrition_cache: dict[int, dict] = {}
+        ingredient_history: list[set[str]] = []
+        planned_days: list[dict] = []
+        warnings: list[str] = []
+        sources: set[str] = set()
+
+        for day_number in range(1, request.days + 1):
+            day_meals: list[dict] = []
+            day_ingredients: set[str] = set()
+            day_warnings: list[str] = []
+            day_calories = 0.0
+            day_protein = 0.0
+            day_complete = True
+            unfilled_meals: list[str] = []
+            history_length = max(0, request.no_repeat_days - 1)
+            recent_ingredients = set().union(*ingredient_history[-history_length:]) if history_length else set()
+            meal_options: list[tuple[str, list[dict], list[tuple[tuple[float, ...], dict, dict, set[str]]]]] = []
+
+            for meal_type in request.meal_types:
+                candidates, _ = filter_recipes(
+                    eligible_recipes,
+                    MealPlanRequest(meal_type=meal_type, max_recipes=max(1, len(eligible_recipes))),
+                )
+                if not candidates:
+                    meal_options.append((meal_type, candidates, []))
+                    continue
+
+                ranked = MealPlanningAgent(candidates, self.backend).plan(
+                    MealPlanRequest(
+                        restrictions=request.restrictions,
+                        meal_type=meal_type,
+                        max_recipes=len(candidates),
+                    )
+                )
+                sources.add(ranked.source)
+                day_warnings.extend(ranked.warnings)
+                ranked_ids = {recipe.get("recipe_id") for recipe in ranked.recipes}
+                ordered_candidates = list(ranked.recipes) + [
+                    recipe for recipe in candidates if recipe.get("recipe_id") not in ranked_ids
+                ]
+
+                choices: list[tuple[tuple[float, ...], dict, dict, set[str]]] = []
+                for index, recipe in enumerate(ordered_candidates):
+                    recipe_ingredients = {
+                        normalize_text(ingredient.get("name", ""))
+                        for ingredient in recipe.get("ingredients", [])
+                        if normalize_text(ingredient.get("name", ""))
+                    }
+                    if request.no_repeat_days and recipe_ingredients & recent_ingredients:
+                        continue
+                    nutrition = nutrition_cache.setdefault(
+                        id(recipe),
+                        _recipe_nutrition(recipe, request.servings, self.macro_calculator),
+                    )
+                    score = (float(nutrition["complete"]), -float(index))
+                    choices.append((score, recipe, nutrition, recipe_ingredients))
+                meal_options.append((meal_type, candidates, choices))
+
+            best_combo = None
+            best_score = None
+            option_sets = [choices + [None] for _, _, choices in meal_options]
+            for combo in product(*option_sets):
+                used_ingredients = set(recent_ingredients)
+                compatible = True
+                for choice in combo:
+                    if choice is None:
+                        continue
+                    recipe_ingredients = choice[3]
+                    if request.no_repeat_days and recipe_ingredients & used_ingredients:
+                        compatible = False
+                        break
+                    used_ingredients.update(recipe_ingredients)
+                if not compatible:
+                    continue
+
+                selected = [choice for choice in combo if choice is not None]
+                complete_choices = [choice for choice in selected if choice[2]["complete"]]
+                all_slots_filled = len(selected) == len(request.meal_types)
+                all_macros_complete = all_slots_filled and len(complete_choices) == len(selected)
+                calories = sum(choice[2]["calories"] for choice in complete_choices)
+                protein = sum(choice[2]["protein_g"] for choice in complete_choices)
+                checks = []
+                if request.target_protein_g_per_day is not None:
+                    checks.append(protein >= request.target_protein_g_per_day)
+                if request.max_calories_per_day is not None:
+                    checks.append(calories <= request.max_calories_per_day)
+                targets_met = all(checks) if checks and all_macros_complete else False
+                calorie_excess = max(0.0, calories - request.max_calories_per_day) if request.max_calories_per_day is not None else 0.0
+                rank_preference = tuple(choice[0][-1] if choice is not None else -1_000_000.0 for choice in combo)
+                score = (
+                    len(selected),
+                    len(complete_choices),
+                    float(targets_met),
+                    -calorie_excess,
+                    rank_preference,
+                )
+                if best_score is None or score > best_score:
+                    best_combo = combo
+                    best_score = score
+
+            for (meal_type, candidates, choices), choice in zip(meal_options, best_combo or ()):
+                if choice is None:
+                    unfilled_meals.append(meal_type)
+                    day_complete = False
+                    if not candidates:
+                        day_warnings.append(f"No recipe available for {meal_type}.")
+                    else:
+                        day_warnings.append(
+                            f"No {meal_type} recipe fits the dietary and {request.no_repeat_days}-day ingredient-repeat constraints."
+                        )
+                    continue
+
+                _, chosen_recipe, nutrition, chosen_ingredients = choice
+                day_ingredients.update(chosen_ingredients)
+                day_meals.append({
+                    "meal_type": meal_type,
+                    "recipe": _recipe_for_servings(chosen_recipe, request.servings),
+                    "nutrition": nutrition,
+                })
+                if nutrition["complete"]:
+                    day_calories += nutrition["calories"]
+                    day_protein += nutrition["protein_g"]
+                else:
+                    day_complete = False
+                    unresolved = ", ".join(nutrition["unresolved_ingredients"])
+                    day_warnings.append(f"{chosen_recipe.get('name', 'Recipe')}: macros unavailable for {unresolved}.")
+
+            totals_complete = day_complete and len(day_meals) == len(request.meal_types)
+            targets_met = None
+            if totals_complete:
+                checks = []
+                if request.target_protein_g_per_day is not None:
+                    checks.append(day_protein >= request.target_protein_g_per_day)
+                if request.max_calories_per_day is not None:
+                    checks.append(day_calories <= request.max_calories_per_day)
+                targets_met = all(checks) if checks else None
+                if targets_met is False:
+                    day_warnings.append("Daily nutrition targets were not met.")
+            else:
+                day_warnings.append("Daily macro totals and target compliance cannot be verified.")
+
+            planned_days.append({
+                "day": day_number,
+                "meals": day_meals,
+                "unfilled_meals": unfilled_meals,
+                "nutrition": {
+                    "complete": totals_complete,
+                    "calories": round(day_calories, 2) if totals_complete else None,
+                    "protein_g": round(day_protein, 2) if totals_complete else None,
+                    "carbs_g": round(sum(meal["nutrition"]["carbs_g"] for meal in day_meals), 2) if totals_complete else None,
+                    "fat_g": round(sum(meal["nutrition"]["fat_g"] for meal in day_meals), 2) if totals_complete else None,
+                    "targets_met": targets_met,
+                },
+                "warnings": day_warnings,
+            })
+            warnings.extend(day_warnings)
+            if request.no_repeat_days > 1:
+                ingredient_history.append(day_ingredients)
+                ingredient_history = ingredient_history[-(request.no_repeat_days - 1):]
+
+        weekly_complete = all(day["nutrition"]["complete"] for day in planned_days)
+        weekly_totals = {
+            "complete": weekly_complete,
+            "calories": round(sum(day["nutrition"]["calories"] for day in planned_days), 2) if weekly_complete else None,
+            "protein_g": round(sum(day["nutrition"]["protein_g"] for day in planned_days), 2) if weekly_complete else None,
+            "carbs_g": round(sum(day["nutrition"]["carbs_g"] for day in planned_days), 2) if weekly_complete else None,
+            "fat_g": round(sum(day["nutrition"]["fat_g"] for day in planned_days), 2) if weekly_complete else None,
+        }
+        if "llm" in sources and len(sources) == 1:
+            source = "llm"
+        elif "deterministic-fallback" in sources:
+            source = "deterministic-fallback"
+        else:
+            source = "deterministic"
+
+        return WeeklyMealPlanResult(
+            days=tuple(planned_days),
+            weekly_totals=weekly_totals,
+            rejected=tuple(rejected),
+            source=source,
+            warnings=tuple(dict.fromkeys(warnings)),
+        )
+
 
 __all__ = [
     "InvalidPlannerResponse",
@@ -234,6 +566,8 @@ __all__ = [
     "MealPlanningAgent",
     "OllamaBackend",
     "PlannerBackend",
+    "WeeklyMealPlanRequest",
+    "WeeklyMealPlanResult",
     "deterministic_plan",
     "filter_recipes",
     "load_recipes",

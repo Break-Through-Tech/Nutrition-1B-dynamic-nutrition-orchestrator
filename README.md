@@ -201,6 +201,13 @@ For local LLM selection, pass `OllamaBackend()` to `MealPlanningAgent`. Ollama
 is optional; if its local endpoint is unavailable, the same deterministic
 restriction-filtered plan is returned.
 
+`MealPlanningAgent.plan_week(WeeklyMealPlanRequest(...))` creates a daily or
+weekly schedule with dietary restrictions, excluded ingredients, serving
+scaling, and a rolling ingredient-repeat window. It uses the deterministic
+macro calculator for gram-based ingredients in the trusted catalog. If any
+ingredient is unresolved or has an unsupported unit, that meal's totals and
+target-compliance status are reported as unknown rather than estimated.
+
 The planner does not invent macros for recipe ingredients missing from the
 canonical nutrition catalog. Those ingredients must be resolved through the
 USDA pipeline before macro totals are reported.
