@@ -11,6 +11,7 @@
 | Shirina Daniel   | @shirinadan   | (Deterministic macro calculation, recipe scaling, dietary restriction filtering, benchmark evaluation, automated testing)| www.linkedin.com/in/shirinadan/                  |
 | Lakshmi Jinkala  |@lakshmijinkala|         (Error-recovery state loop, creative recipe generation)          | www.linkedin.com/in/lakshmijinkala               |
 | Sadia Fathima    |@sluggysadi    | (Build the local recipe seed database,  Build the Streamlit UI)          | https://www.linkedin.com/in/sadiafathima         |
+| Gesell Gonzalez  |@ggesell17     | (Build USDA FoodData Central API, Incorporated Pydantic Schema to API)   | www.linkedin.com/in/gesell-gonzalez              |
 
 ---
 
