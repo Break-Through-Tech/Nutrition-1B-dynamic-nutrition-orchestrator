@@ -11,3 +11,6 @@ __pycache__/
 # Local environments
 .venv/
 venv/
+
+# Task 9 local vector index and downloaded embedding model cache
+data/ingredient_vector_index/

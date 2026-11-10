@@ -4,3 +4,7 @@ pydantic>=2.9
 
 # Test suite (Tasks 4-6)
 pytest>=8.0
+
+# Task 9: local semantic ingredient retrieval and persistent vector storage
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
