@@ -188,7 +188,7 @@ The repo includes the following source material for background and project frami
 
 ## 🙏 **Acknowledgements**
 
-We want to thank our Challenge Advisor, Sakshi, for the opportunity to work on thie projects, and we want to thank our AI Studio Coach, Sai, for not just helping us in this endeavor, but for also being understanding and checking in on us
+We want to thank our Challenge Advisor, Sakshi, for the opportunity to work on this project, and we want to thank our AI Studio Coach, Sai, for not just helping us in this endeavor, but also for being understanding and checking in on us
 
 - Challenge Advisor: FNU Sakshi, sakshi.lindner@gmail.com
 - AI Studio Coach: Sai Duddu
