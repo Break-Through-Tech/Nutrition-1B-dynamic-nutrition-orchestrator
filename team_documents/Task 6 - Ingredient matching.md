@@ -33,8 +33,7 @@ the reported F1 can be re-derived offline by anyone without an API key.
   Without it, curated records cannot be preferred over branded ones.
 - requirements.txt: add httpx and pydantic, which the code already needed.
 - .gitignore: exclude .env; add .env.example as a committed template.
-- README.md: restore Sadia Fathima's team-table row, dropped by becb424.
-
+  
 Known limitations are documented in README.md under "Honest limitations":
 the margin over target is 0.48 points, the accept threshold was tuned on
 this same validation set rather than a held-out one, and USDA has no record
