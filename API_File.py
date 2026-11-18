@@ -12,7 +12,7 @@ from __future__ import annotations
 # such as "this number cannot be negative."
 import os
 from decimal import Decimal, InvalidOperation
-from typing import Any
+from typing import Any, Sequence
 import httpx
 from pydantic import BaseModel, Field
 
@@ -65,7 +65,12 @@ class USDAClient:
             await self._client.aclose()
             self._client = None
 
-    async def search_foods(self, query: str, page_size: int = 10) -> list[USDAFood]:
+    async def search_foods(
+        self,
+        query: str,
+        page_size: int = 10,
+        data_types: Sequence[str] | None = None,
+    ) -> list[USDAFood]:
         """Search USDA and return a list of validated food records."""
 
         # Remove extra spaces so a user's search is sent in a clean form.
@@ -74,6 +79,12 @@ class USDAClient:
             raise ValueError("query must not be empty")
         if not 1 <= page_size <= 50: # Limit the response size so requests stay reasonable.
             raise ValueError("page_size must be between 1 and 50")
+        if data_types is not None and (
+            isinstance(data_types, str)
+            or not data_types
+            or any(not isinstance(value, str) or not value.strip() for value in data_types)
+        ):
+            raise ValueError("data_types must contain one or more non-empty strings")
 
         if self._client is None:
             # The caller must use the client inside `async with` so it is closed safely.
@@ -87,7 +98,11 @@ class USDAClient:
             "/foods/search",
             params={"api_key": self.api_key},
             # USDA accepts the search text and requested number of results as JSON.
-            json={"query": cleaned_query, "pageSize": page_size},
+            json={
+                "query": cleaned_query,
+                "pageSize": page_size,
+                **({"dataType": list(data_types)} if data_types is not None else {}),
+            },
         )
         response.raise_for_status() # Turn HTTP errors, such as an invalid key, into Python exceptions.
         payload = response.json() # Convert the response body from JSON text into Python dictionaries.

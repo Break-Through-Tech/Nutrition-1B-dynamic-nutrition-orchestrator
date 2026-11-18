@@ -1,0 +1,6 @@
+{
+  "nlp_query_errors": {},
+  "hybrid_request_errors": [],
+  "detail_lookup_errors": {},
+  "local_detail_setup_note": "The initial detail loop referenced the closed search client and made no request; all selected IDs were then queried with a fresh live USDA client."
+}
