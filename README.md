@@ -5,7 +5,7 @@
 | Name             | GitHub Handle | Contribution                                                             | LinkedIn Account                                 |
 |------------------|---------------|--------------------------------------------------------------------------|--------------------------------------------------|
 | Shirina Daniel   | @shirinadan   | Deterministic macro calculation, recipe scaling, dietary restriction filtering, benchmark evaluation, automated testing | www.linkedin.com/in/shirinadan/                  |
-| Lakshmi Jinkala  | @lakshmijinkala | Error-recovery state loop, creative recipe generation | www.linkedin.com/in/lakshmijinkala               |
+| Lakshmi Jinkala  | @lakshmijinkala | Set up vector DB, Semantic ingredient retrieval | www.linkedin.com/in/lakshmijinkala               |
 | Sadia Fathima    | @sluggysadi | Build the local recipe seed database, build the Streamlit UI | https://www.linkedin.com/in/sadiafathima         |
 | Gesell Gonzalez  | @ggesell17 | Build the USDA FoodData Central API and incorporate Pydantic schemas | www.linkedin.com/in/gesell-gonzalez              |
 
