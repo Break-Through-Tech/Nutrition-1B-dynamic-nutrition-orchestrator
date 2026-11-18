@@ -1,0 +1,2467 @@
+[
+  {
+    "original_ingredient": "oats",
+    "search_queries": [
+      "oats"
+    ],
+    "selected_fdc_id": 169705,
+    "selected_description": "Oats (Includes foods for USDA's Food Distribution Program)",
+    "selected_data_type": "SR Legacy",
+    "score": 0.844,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "low-fat Greek yogurt",
+    "search_queries": [
+      "low-fat greek yogurt",
+      "greek yogurt"
+    ],
+    "selected_fdc_id": 170903,
+    "selected_description": "Yogurt, Greek, plain, lowfat",
+    "selected_data_type": "SR Legacy",
+    "score": 0.908,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "unflavored whey protein",
+    "search_queries": [
+      "unflavored whey protein",
+      "whey protein"
+    ],
+    "selected_fdc_id": 2510560,
+    "selected_description": "WHEY PROTEIN 20 G POWDER, UNFLAVORED, UNFLAVORED",
+    "selected_data_type": "Branded",
+    "score": 0.8419,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "mustard seeds",
+    "search_queries": [
+      "mustard seeds"
+    ],
+    "selected_fdc_id": 1930147,
+    "selected_description": "MUSTARD SEEDS",
+    "selected_data_type": "Branded",
+    "score": 0.94,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "curry leaves",
+    "search_queries": [
+      "curry leaves"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "green chili",
+    "search_queries": [
+      "peppers hot chili green",
+      "green chili"
+    ],
+    "selected_fdc_id": 170497,
+    "selected_description": "Peppers, hot chili, green, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "minced ginger",
+    "search_queries": [
+      "ginger"
+    ],
+    "selected_fdc_id": 169231,
+    "selected_description": "Ginger root, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "oil",
+    "search_queries": [
+      "oil"
+    ],
+    "selected_fdc_id": 172336,
+    "selected_description": "Oil, canola",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "moong dal, soaked overnight",
+    "search_queries": [
+      "mung beans",
+      "moong dal"
+    ],
+    "selected_fdc_id": 174256,
+    "selected_description": "Mung beans, mature seeds, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "low-fat paneer, crumbled",
+    "search_queries": [
+      "low-fat paneer cheese",
+      "paneer cheese",
+      "low-fat paneer"
+    ],
+    "selected_fdc_id": 2705740,
+    "selected_description": "Cheese, paneer",
+    "selected_data_type": "Survey (FNDDS)",
+    "score": 0.8961,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "coriander",
+    "search_queries": [
+      "coriander"
+    ],
+    "selected_fdc_id": 169997,
+    "selected_description": "Coriander (cilantro) leaves, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "salt",
+    "search_queries": [
+      "salt"
+    ],
+    "selected_fdc_id": 173468,
+    "selected_description": "Salt, table",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "hing",
+    "search_queries": [
+      "asafoetida",
+      "hing"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "extra-firm tofu",
+    "search_queries": [
+      "extra-firm tofu",
+      "tofu"
+    ],
+    "selected_fdc_id": 174290,
+    "selected_description": "Tofu, extra firm, prepared with nigari",
+    "selected_data_type": "SR Legacy",
+    "score": 0.6667,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "whole wheat bread",
+    "search_queries": [
+      "whole wheat bread",
+      "wheat bread"
+    ],
+    "selected_fdc_id": 174091,
+    "selected_description": "Bread, french or vienna, whole wheat",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "turmeric",
+    "search_queries": [
+      "turmeric"
+    ],
+    "selected_fdc_id": 172231,
+    "selected_description": "Spices, turmeric, ground",
+    "selected_data_type": "SR Legacy",
+    "score": 0.936,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "kala namak (black salt)",
+    "search_queries": [
+      "black salt",
+      "kala namak"
+    ],
+    "selected_fdc_id": 2587261,
+    "selected_description": "BLACK SALT",
+    "selected_data_type": "Branded",
+    "score": 0.94,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "cilantro",
+    "search_queries": [
+      "coriander leaves",
+      "cilantro"
+    ],
+    "selected_fdc_id": 169997,
+    "selected_description": "Coriander (cilantro) leaves, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "whole wheat flour (atta)",
+    "search_queries": [
+      "whole wheat flour",
+      "wheat flour"
+    ],
+    "selected_fdc_id": 168944,
+    "selected_description": "Wheat flour, whole-grain, soft wheat",
+    "selected_data_type": "SR Legacy",
+    "score": 0.8813,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "low-fat paneer, grated",
+    "search_queries": [
+      "low-fat paneer cheese",
+      "paneer cheese",
+      "low-fat paneer"
+    ],
+    "selected_fdc_id": 2705740,
+    "selected_description": "Cheese, paneer",
+    "selected_data_type": "Survey (FNDDS)",
+    "score": 0.8961,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "carom seeds (ajwain)",
+    "search_queries": [
+      "carom seeds"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "red chili powder",
+    "search_queries": [
+      "chili powder",
+      "red chili powder"
+    ],
+    "selected_fdc_id": 171319,
+    "selected_description": "Spices, chili powder",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "garam masala",
+    "search_queries": [
+      "garam masala"
+    ],
+    "selected_fdc_id": 2525305,
+    "selected_description": "GARAM MASALA",
+    "selected_data_type": "Branded",
+    "score": 0.94,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "ghee",
+    "search_queries": [
+      "butter oil clarified",
+      "ghee"
+    ],
+    "selected_fdc_id": 171314,
+    "selected_description": "Butter, Clarified butter (ghee)",
+    "selected_data_type": "SR Legacy",
+    "score": 0.9154,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "dry soya chunks",
+    "search_queries": [
+      "dry textured vegetable protein soy",
+      "textured vegetable protein soy",
+      "dry soya chunks"
+    ],
+    "selected_fdc_id": 2707451,
+    "selected_description": "Textured vegetable protein, dry",
+    "selected_data_type": "Survey (FNDDS)",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "green peas",
+    "search_queries": [
+      "green peas"
+    ],
+    "selected_fdc_id": 170419,
+    "selected_description": "Peas, green, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "brown rice",
+    "search_queries": [
+      "brown rice"
+    ],
+    "selected_fdc_id": 168876,
+    "selected_description": "Rice, brown, parboiled, dry, UNCLE BEN'S",
+    "selected_data_type": "SR Legacy",
+    "score": 0.9704,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "onion-tomato gravy base",
+    "search_queries": [
+      "onion-tomato gravy base"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "composite_requires_review",
+    "sr_legacy_status": "not_attempted",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "quinoa",
+    "search_queries": [
+      "quinoa"
+    ],
+    "selected_fdc_id": 168874,
+    "selected_description": "Quinoa, uncooked",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "capsicum, diced",
+    "search_queries": [
+      "bell pepper",
+      "capsicum"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "onion, diced",
+    "search_queries": [
+      "onion"
+    ],
+    "selected_fdc_id": 171327,
+    "selected_description": "Spices, onion powder",
+    "selected_data_type": "SR Legacy",
+    "score": 0.901,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "kadhai spice mix (crushed coriander seeds / dry red chili)",
+    "search_queries": [
+      "crushed coriander seeds / dry red chili",
+      "kadhai spice mix"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "composite_requires_review",
+    "sr_legacy_status": "not_attempted",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "dry soya granules",
+    "search_queries": [
+      "dry textured vegetable protein soy",
+      "textured vegetable protein soy",
+      "dry soya granules"
+    ],
+    "selected_fdc_id": 2707451,
+    "selected_description": "Textured vegetable protein, dry",
+    "selected_data_type": "Survey (FNDDS)",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "atta, for 2 rotis",
+    "search_queries": [
+      "whole wheat flour",
+      "atta"
+    ],
+    "selected_fdc_id": 168944,
+    "selected_description": "Wheat flour, whole-grain, soft wheat",
+    "selected_data_type": "SR Legacy",
+    "score": 0.8813,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "kasuri methi",
+    "search_queries": [
+      "fenugreek leaves dried",
+      "kasuri methi"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "kabuli chana, soaked and boiled",
+    "search_queries": [
+      "chickpeas",
+      "kabuli chana"
+    ],
+    "selected_fdc_id": 2707414,
+    "selected_description": "Chickpeas, NFS",
+    "selected_data_type": "Survey (FNDDS)",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "basmati rice",
+    "search_queries": [
+      "basmati rice"
+    ],
+    "selected_fdc_id": 1928068,
+    "selected_description": "BASMATI RICE",
+    "selected_data_type": "Branded",
+    "score": 0.94,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "biryani spice mix",
+    "search_queries": [
+      "biryani spice mix"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "composite_requires_review",
+    "sr_legacy_status": "not_attempted",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "low-fat curd",
+    "search_queries": [
+      "low-fat yogurt",
+      "yogurt",
+      "low-fat curd"
+    ],
+    "selected_fdc_id": 170886,
+    "selected_description": "Yogurt, plain, low fat",
+    "selected_data_type": "SR Legacy",
+    "score": 0.7201,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "mint leaves",
+    "search_queries": [
+      "mint leaves"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "cucumber, grated",
+    "search_queries": [
+      "cucumber"
+    ],
+    "selected_fdc_id": 169225,
+    "selected_description": "Cucumber, peeled, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "low-fat paneer",
+    "search_queries": [
+      "low-fat paneer cheese",
+      "paneer cheese",
+      "low-fat paneer"
+    ],
+    "selected_fdc_id": 2705740,
+    "selected_description": "Cheese, paneer",
+    "selected_data_type": "Survey (FNDDS)",
+    "score": 0.8961,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "onion, finely chopped",
+    "search_queries": [
+      "onion"
+    ],
+    "selected_fdc_id": 171327,
+    "selected_description": "Spices, onion powder",
+    "selected_data_type": "SR Legacy",
+    "score": 0.901,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "tomato, finely chopped",
+    "search_queries": [
+      "tomato"
+    ],
+    "selected_fdc_id": 170461,
+    "selected_description": "Tomato powder",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "kala chana, soaked overnight and boiled",
+    "search_queries": [
+      "chickpeas black",
+      "kala chana"
+    ],
+    "selected_fdc_id": 2054512,
+    "selected_description": "KALA CHANA",
+    "selected_data_type": "Branded",
+    "score": 0.94,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "mixed sprouts, steamed",
+    "search_queries": [
+      "mixed sprouts"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "composite_requires_review",
+    "sr_legacy_status": "not_attempted",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "cucumber, chopped",
+    "search_queries": [
+      "cucumber"
+    ],
+    "selected_fdc_id": 169225,
+    "selected_description": "Cucumber, peeled, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "tomato, chopped",
+    "search_queries": [
+      "tomato"
+    ],
+    "selected_fdc_id": 170461,
+    "selected_description": "Tomato powder",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "chaat masala",
+    "search_queries": [
+      "chaat masala"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "lemon juice",
+    "search_queries": [
+      "lemon juice"
+    ],
+    "selected_fdc_id": 167747,
+    "selected_description": "Lemon juice, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "olive oil",
+    "search_queries": [
+      "olive oil"
+    ],
+    "selected_fdc_id": 167737,
+    "selected_description": "Oil, corn, peanut, and olive",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "whole black urad dal",
+    "search_queries": [
+      "black gram",
+      "black black gram",
+      "whole black urad dal"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "rajma",
+    "search_queries": [
+      "kidney beans",
+      "rajma"
+    ],
+    "selected_fdc_id": 173744,
+    "selected_description": "Beans, kidney, red, mature seeds, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "low-fat milk",
+    "search_queries": [
+      "low-fat milk",
+      "milk"
+    ],
+    "selected_fdc_id": 170910,
+    "selected_description": "Milk, chocolate, lowfat, reduced sugar",
+    "selected_data_type": "SR Legacy",
+    "score": 0.9135,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "ginger, julienned",
+    "search_queries": [
+      "ginger"
+    ],
+    "selected_fdc_id": 169231,
+    "selected_description": "Ginger root, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "dry soya chunks, boiled and squeezed",
+    "search_queries": [
+      "dry textured vegetable protein soy",
+      "textured vegetable protein soy",
+      "dry soya chunks"
+    ],
+    "selected_fdc_id": 2707451,
+    "selected_description": "Textured vegetable protein, dry",
+    "selected_data_type": "Survey (FNDDS)",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "extra-firm tofu, cubed",
+    "search_queries": [
+      "extra-firm tofu",
+      "tofu"
+    ],
+    "selected_fdc_id": 174290,
+    "selected_description": "Tofu, extra firm, prepared with nigari",
+    "selected_data_type": "SR Legacy",
+    "score": 0.6667,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "broccoli and bell peppers, mixed",
+    "search_queries": [
+      "broccoli and bell peppers"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "composite_requires_review",
+    "sr_legacy_status": "not_attempted",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "soy sauce",
+    "search_queries": [
+      "soy sauce"
+    ],
+    "selected_fdc_id": 174278,
+    "selected_description": "Soy sauce made from soy (tamari)",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "vinegar",
+    "search_queries": [
+      "vinegar"
+    ],
+    "selected_fdc_id": 172241,
+    "selected_description": "Vinegar, balsamic",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "garlic, minced",
+    "search_queries": [
+      "garlic"
+    ],
+    "selected_fdc_id": 169230,
+    "selected_description": "Garlic, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "dry-roasted chana",
+    "search_queries": [
+      "chickpeas roasted",
+      "chana",
+      "dry-roasted chana"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "almonds",
+    "search_queries": [
+      "almonds"
+    ],
+    "selected_fdc_id": 170567,
+    "selected_description": "Nuts, almonds",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "whey isolate",
+    "search_queries": [
+      "whey isolate"
+    ],
+    "selected_fdc_id": 173177,
+    "selected_description": "Beverages, Whey protein powder isolate",
+    "selected_data_type": "SR Legacy",
+    "score": 0.9109,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "soy milk",
+    "search_queries": [
+      "soy milk"
+    ],
+    "selected_fdc_id": 2705406,
+    "selected_description": "Soy milk, chocolate",
+    "selected_data_type": "Survey (FNDDS)",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "chia seeds",
+    "search_queries": [
+      "chia seeds"
+    ],
+    "selected_fdc_id": 170554,
+    "selected_description": "Seeds, chia seeds, dried",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "whole edamame pods",
+    "search_queries": [
+      "whole edamame",
+      "edamame"
+    ],
+    "selected_fdc_id": 2143592,
+    "selected_description": "WHOLE EDAMAME",
+    "selected_data_type": "Branded",
+    "score": 0.94,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "sea salt",
+    "search_queries": [
+      "sea salt"
+    ],
+    "selected_fdc_id": 1851897,
+    "selected_description": "SEA SALT",
+    "selected_data_type": "Branded",
+    "score": 0.94,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "red chili flakes",
+    "search_queries": [
+      "red chili flakes"
+    ],
+    "selected_fdc_id": 579086,
+    "selected_description": "RED CHILI FLAKES",
+    "selected_data_type": "Branded",
+    "score": 0.94,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "dry-roasted soya nuts",
+    "search_queries": [
+      "dry-roasted soy nuts roasted",
+      "soy nuts roasted",
+      "dry-roasted soya nuts"
+    ],
+    "selected_fdc_id": 2707433,
+    "selected_description": "Soy nuts",
+    "selected_data_type": "Survey (FNDDS)",
+    "score": 0.8667,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "onions, finely chopped",
+    "search_queries": [
+      "onions"
+    ],
+    "selected_fdc_id": 170000,
+    "selected_description": "Onions, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "tomatoes",
+    "search_queries": [
+      "tomatoes"
+    ],
+    "selected_fdc_id": 170456,
+    "selected_description": "Tomatoes, green, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "green chilies",
+    "search_queries": [
+      "peppers hot chili green",
+      "green chilies"
+    ],
+    "selected_fdc_id": 170497,
+    "selected_description": "Peppers, hot chili, green, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "ginger-garlic paste",
+    "search_queries": [
+      "ginger-garlic paste"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "mustard oil",
+    "search_queries": [
+      "mustard oil"
+    ],
+    "selected_fdc_id": 172337,
+    "selected_description": "Oil, mustard",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "coriander leaves",
+    "search_queries": [
+      "coriander leaves"
+    ],
+    "selected_fdc_id": 169997,
+    "selected_description": "Coriander (cilantro) leaves, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "regular paneer, cubed thick",
+    "search_queries": [
+      "regular paneer cheese",
+      "regular paneer"
+    ],
+    "selected_fdc_id": 174975,
+    "selected_description": "Crackers, cheese, regular",
+    "selected_data_type": "SR Legacy",
+    "score": 0.8121,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "mild Greek yogurt",
+    "search_queries": [
+      "mild greek yogurt",
+      "greek yogurt"
+    ],
+    "selected_fdc_id": 2705441,
+    "selected_description": "Yogurt, Greek, with oats",
+    "selected_data_type": "Survey (FNDDS)",
+    "score": 0.8701,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "Kashmiri red chili powder",
+    "search_queries": [
+      "paprika",
+      "kashmiri red chili powder"
+    ],
+    "selected_fdc_id": 171329,
+    "selected_description": "Spices, paprika",
+    "selected_data_type": "SR Legacy",
+    "score": 0.988,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "cumin powder",
+    "search_queries": [
+      "cumin powder"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "bell peppers, diced",
+    "search_queries": [
+      "bell peppers"
+    ],
+    "selected_fdc_id": 2258588,
+    "selected_description": "Peppers, bell, green, raw",
+    "selected_data_type": "Foundation",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "onions, diced",
+    "search_queries": [
+      "onions"
+    ],
+    "selected_fdc_id": 170000,
+    "selected_description": "Onions, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "soft readymade parathas",
+    "search_queries": [
+      "soft readymade parathas",
+      "readymade parathas"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "kala chana, boiled",
+    "search_queries": [
+      "chickpeas black",
+      "kala chana"
+    ],
+    "selected_fdc_id": 2054512,
+    "selected_description": "KALA CHANA",
+    "selected_data_type": "Branded",
+    "score": 0.94,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "raw sprouted moong",
+    "search_queries": [
+      "mung beans sprouted",
+      "sprouted moong",
+      "raw sprouted moong"
+    ],
+    "selected_fdc_id": 169957,
+    "selected_description": "Mung beans, mature seeds, sprouted, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "cucumber, large, diced",
+    "search_queries": [
+      "cucumber"
+    ],
+    "selected_fdc_id": 169225,
+    "selected_description": "Cucumber, peeled, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "tomatoes, diced",
+    "search_queries": [
+      "tomatoes"
+    ],
+    "selected_fdc_id": 170456,
+    "selected_description": "Tomatoes, green, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "red onion, diced",
+    "search_queries": [
+      "red onion"
+    ],
+    "selected_fdc_id": 1581588,
+    "selected_description": "RED ONION",
+    "selected_data_type": "Branded",
+    "score": 0.94,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "roasted cumin powder",
+    "search_queries": [
+      "roasted cumin powder",
+      "cumin powder"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "lemon juice, freshly squeezed",
+    "search_queries": [
+      "lemon juice"
+    ],
+    "selected_fdc_id": 167747,
+    "selected_description": "Lemon juice, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "black salt",
+    "search_queries": [
+      "black salt"
+    ],
+    "selected_fdc_id": 2587261,
+    "selected_description": "BLACK SALT",
+    "selected_data_type": "Branded",
+    "score": 0.94,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "moong dal, soaked, ground into paste",
+    "search_queries": [
+      "mung beans",
+      "moong dal"
+    ],
+    "selected_fdc_id": 174256,
+    "selected_description": "Mung beans, mature seeds, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "flour tortillas",
+    "search_queries": [
+      "flour tortillas"
+    ],
+    "selected_fdc_id": 175037,
+    "selected_description": "Tortillas, ready-to-bake or -fry, flour, refrigerated",
+    "selected_data_type": "SR Legacy",
+    "score": 0.9905,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "mozzarella/cheddar shredded blend",
+    "search_queries": [
+      "mozzarella/cheddar blend"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "composite_requires_review",
+    "sr_legacy_status": "not_attempted",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "sweet corn kernels, mild",
+    "search_queries": [
+      "sweet corn kernels",
+      "corn kernels"
+    ],
+    "selected_fdc_id": 168538,
+    "selected_description": "Corn, sweet, white, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 0.8441,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "rajma, soaked overnight",
+    "search_queries": [
+      "kidney beans",
+      "rajma"
+    ],
+    "selected_fdc_id": 173744,
+    "selected_description": "Beans, kidney, red, mature seeds, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "soya chunks, processed into fine grains",
+    "search_queries": [
+      "textured vegetable protein soy",
+      "soya chunks"
+    ],
+    "selected_fdc_id": 2707451,
+    "selected_description": "Textured vegetable protein, dry",
+    "selected_data_type": "Survey (FNDDS)",
+    "score": 0.985,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "tomato puree",
+    "search_queries": [
+      "tomato puree"
+    ],
+    "selected_fdc_id": 2382600,
+    "selected_description": "TOMATO PUREE",
+    "selected_data_type": "Branded",
+    "score": 0.94,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "degi mirch",
+    "search_queries": [
+      "paprika",
+      "degi mirch"
+    ],
+    "selected_fdc_id": 171329,
+    "selected_description": "Spices, paprika",
+    "selected_data_type": "SR Legacy",
+    "score": 0.988,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "fat-free Greek yogurt",
+    "search_queries": [
+      "fat-free greek yogurt",
+      "greek yogurt"
+    ],
+    "selected_fdc_id": 170902,
+    "selected_description": "Yogurt, Greek, vanilla, nonfat",
+    "selected_data_type": "SR Legacy",
+    "score": 0.8047,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "spray oil",
+    "search_queries": [
+      "spray oil"
+    ],
+    "selected_fdc_id": 171430,
+    "selected_description": "Oil, PAM cooking spray, original",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "yellow moong/toor dal",
+    "search_queries": [
+      "yellow moong/pigeon peas",
+      "yellow moong/toor dal"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "composite_requires_review",
+    "sr_legacy_status": "not_attempted",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "premium butter",
+    "search_queries": [
+      "premium butter"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "cumin seeds",
+    "search_queries": [
+      "cumin seeds"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "long-grain basmati rice",
+    "search_queries": [
+      "long-grain basmati rice"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "fresh spinach",
+    "search_queries": [
+      "fresh spinach",
+      "spinach"
+    ],
+    "selected_fdc_id": 169729,
+    "selected_description": "Pasta, fresh-refrigerated, spinach, as purchased",
+    "selected_data_type": "SR Legacy",
+    "score": 0.5485,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "low-fat paneer, cubed and seared",
+    "search_queries": [
+      "low-fat paneer cheese",
+      "paneer cheese",
+      "low-fat paneer"
+    ],
+    "selected_fdc_id": 2705740,
+    "selected_description": "Cheese, paneer",
+    "selected_data_type": "Survey (FNDDS)",
+    "score": 0.8961,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "onions",
+    "search_queries": [
+      "onions"
+    ],
+    "selected_fdc_id": 170000,
+    "selected_description": "Onions, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "firm tofu, mashed",
+    "search_queries": [
+      "firm tofu",
+      "tofu"
+    ],
+    "selected_fdc_id": 173788,
+    "selected_description": "HOUSE FOODS Premium Firm Tofu",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "soy flour",
+    "search_queries": [
+      "soy flour"
+    ],
+    "selected_fdc_id": 174275,
+    "selected_description": "Soy flour, defatted",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "fresh tomato puree",
+    "search_queries": [
+      "fresh tomato puree",
+      "tomato puree"
+    ],
+    "selected_fdc_id": 2382600,
+    "selected_description": "TOMATO PUREE",
+    "selected_data_type": "Branded",
+    "score": 0.94,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "onion paste",
+    "search_queries": [
+      "onion paste"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "quinoa-rice blend",
+    "search_queries": [
+      "quinoa-rice blend"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "composite_requires_review",
+    "sr_legacy_status": "not_attempted",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "split moong dal",
+    "search_queries": [
+      "mung beans split",
+      "split moong dal"
+    ],
+    "selected_fdc_id": 174256,
+    "selected_description": "Mung beans, mature seeds, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 0.8101,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "split chana dal",
+    "search_queries": [
+      "chickpeas split",
+      "split chana dal"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "nlp_no_suitable_candidate",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "no_suitable_candidate",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "split urad dal",
+    "search_queries": [
+      "black gram split",
+      "split urad dal"
+    ],
+    "selected_fdc_id": 2445417,
+    "selected_description": "BLACK GRAM SPLIT (URAD CHILKA)",
+    "selected_data_type": "Branded",
+    "score": 0.8342,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "mint-cilantro-yogurt chutney",
+    "search_queries": [
+      "mint-coriander leaves-yogurt chutney",
+      "mint-cilantro-yogurt chutney"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "composite_requires_review",
+    "sr_legacy_status": "not_attempted",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "shredded cucumber",
+    "search_queries": [
+      "cucumber"
+    ],
+    "selected_fdc_id": 169225,
+    "selected_description": "Cucumber, peeled, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "shredded carrots",
+    "search_queries": [
+      "carrots"
+    ],
+    "selected_fdc_id": 170393,
+    "selected_description": "Carrots, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "large soya chunks, triple-boiled and hard-squeezed",
+    "search_queries": [
+      "large textured vegetable protein soy",
+      "large soya chunks"
+    ],
+    "selected_fdc_id": 2707451,
+    "selected_description": "Textured vegetable protein, dry",
+    "selected_data_type": "Survey (FNDDS)",
+    "score": 0.8745,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "firm tofu, cubed",
+    "search_queries": [
+      "firm tofu",
+      "tofu"
+    ],
+    "selected_fdc_id": 173788,
+    "selected_description": "HOUSE FOODS Premium Firm Tofu",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "broccoli florets",
+    "search_queries": [
+      "broccoli florets"
+    ],
+    "selected_fdc_id": 2388614,
+    "selected_description": "BROCCOLI FLORETS",
+    "selected_data_type": "Branded",
+    "score": 0.94,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "nlp_fallback",
+    "reason": "accepted_nlp_fallback",
+    "sr_legacy_status": "no_suitable_candidate",
+    "nlp_status": "matched",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "mixed bell peppers",
+    "search_queries": [
+      "mixed bell peppers"
+    ],
+    "selected_fdc_id": null,
+    "selected_description": null,
+    "selected_data_type": null,
+    "score": null,
+    "accepted": false,
+    "abstained": true,
+    "review_required": true,
+    "stage": null,
+    "reason": "composite_requires_review",
+    "sr_legacy_status": "not_attempted",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "low-sodium soy sauce",
+    "search_queries": [
+      "reduced sodium soy sauce",
+      "soy sauce",
+      "low-sodium soy sauce"
+    ],
+    "selected_fdc_id": 172474,
+    "selected_description": "Soy sauce, reduced sodium, made from hydrolyzed vegetable protein",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "ginger, minced",
+    "search_queries": [
+      "ginger"
+    ],
+    "selected_fdc_id": 169231,
+    "selected_description": "Ginger root, raw",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  },
+  {
+    "original_ingredient": "cornstarch",
+    "search_queries": [
+      "cornstarch"
+    ],
+    "selected_fdc_id": 169698,
+    "selected_description": "Cornstarch",
+    "selected_data_type": "SR Legacy",
+    "score": 1.0,
+    "accepted": true,
+    "abstained": false,
+    "review_required": false,
+    "stage": "sr_legacy",
+    "reason": "accepted_sr_legacy",
+    "sr_legacy_status": "matched",
+    "nlp_status": "not_attempted",
+    "api_error": false,
+    "api_errors": []
+  }
+]

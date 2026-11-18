@@ -1,0 +1,17 @@
+{
+  "captured_at_utc": "2026-11-17T23:36:02.245925+00:00",
+  "recipe_count": 26,
+  "ingredient_entries": 165,
+  "unique_ingredients": 126,
+  "deduplication": "Unicode NFKC, casefold, trim/collapse whitespace; first-seen original name retained",
+  "page_size": 50,
+  "nlp_unique_queries": 137,
+  "nlp_search_successes": 137,
+  "nlp_search_failures": 0,
+  "hybrid_search_requests": 243,
+  "hybrid_search_successes": 243,
+  "hybrid_search_failures": 0,
+  "selected_fdc_ids_requested": 98,
+  "selected_record_detail_successes": 98,
+  "selected_record_detail_failures": 0
+}

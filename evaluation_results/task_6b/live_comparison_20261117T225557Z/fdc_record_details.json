@@ -1,0 +1,1717 @@
+{
+  "source": "Live USDA FoodData Central /food/{fdcId}",
+  "retrieved_at_utc": "2026-11-17T23:01:45.025406+00:00",
+  "records": {
+    "167737": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.502577+00:00",
+      "fdc_id": 167737,
+      "description": "Oil, corn, peanut, and olive",
+      "data_type": "SR Legacy",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 4,
+        "code": "0400",
+        "description": "Fats and Oils"
+      },
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 884.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1062:Energy": {
+          "amount": 3699.0,
+          "unit": "kJ",
+          "name": "Energy"
+        },
+        "1003:protein_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 100.0,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "2000:sugars_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1093:sodium_mg": {
+          "amount": 0.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 14.367,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "168876": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.529777+00:00",
+      "fdc_id": 168876,
+      "description": "Rice, brown, parboiled, dry, UNCLE BEN'S",
+      "data_type": "SR Legacy",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 20,
+        "code": "2000",
+        "description": "Cereal Grains and Pasta"
+      },
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 370.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1062:Energy": {
+          "amount": 1547.0,
+          "unit": "kJ",
+          "name": "Energy"
+        },
+        "1003:protein_g": {
+          "amount": 7.6,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 2.75,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 78.68,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 3.5,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "2000:sugars_g": {
+          "amount": 0.5,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1093:sodium_mg": {
+          "amount": 6.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.481,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "168944": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.486087+00:00",
+      "fdc_id": 168944,
+      "description": "Wheat flour, whole-grain, soft wheat",
+      "data_type": "SR Legacy",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 20,
+        "code": "2000",
+        "description": "Cereal Grains and Pasta"
+      },
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 332.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1062:Energy": {
+          "amount": 1391.0,
+          "unit": "kJ",
+          "name": "Energy"
+        },
+        "1003:protein_g": {
+          "amount": 9.61,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 1.95,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 74.48,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 13.1,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "2000:sugars_g": {
+          "amount": 1.02,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1093:sodium_mg": {
+          "amount": 3.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.43,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "169230": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.369668+00:00",
+      "fdc_id": 169230,
+      "description": "Garlic, raw",
+      "data_type": "SR Legacy",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 11,
+        "code": "1100",
+        "description": "Vegetables and Vegetable Products"
+      },
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 149.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1062:Energy": {
+          "amount": 623.0,
+          "unit": "kJ",
+          "name": "Energy"
+        },
+        "1003:protein_g": {
+          "amount": 6.36,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 0.5,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 33.06,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 2.1,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "2000:sugars_g": {
+          "amount": 1.0,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1093:sodium_mg": {
+          "amount": 17.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.089,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "169705": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.482669+00:00",
+      "fdc_id": 169705,
+      "description": "Oats (Includes foods for USDA's Food Distribution Program)",
+      "data_type": "SR Legacy",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 20,
+        "code": "2000",
+        "description": "Cereal Grains and Pasta"
+      },
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 389.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1062:Energy": {
+          "amount": 1628.0,
+          "unit": "kJ",
+          "name": "Energy"
+        },
+        "1003:protein_g": {
+          "amount": 16.89,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 6.9,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 66.27,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 10.6,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 2.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 1.217,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "170554": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.431736+00:00",
+      "fdc_id": 170554,
+      "description": "Seeds, chia seeds, dried",
+      "data_type": "SR Legacy",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 12,
+        "code": "1200",
+        "description": "Nut and Seed Products"
+      },
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 486.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1062:Energy": {
+          "amount": 2034.0,
+          "unit": "kJ",
+          "name": "Energy"
+        },
+        "1003:protein_g": {
+          "amount": 16.54,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 30.74,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 42.12,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 34.4,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 16.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 3.33,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "170567": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.440219+00:00",
+      "fdc_id": 170567,
+      "description": "Nuts, almonds",
+      "data_type": "SR Legacy",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 12,
+        "code": "1200",
+        "description": "Nut and Seed Products"
+      },
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 579.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1062:Energy": {
+          "amount": 2423.0,
+          "unit": "kJ",
+          "name": "Energy"
+        },
+        "1003:protein_g": {
+          "amount": 21.15,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 49.93,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 21.55,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 12.5,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "2000:sugars_g": {
+          "amount": 4.35,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1093:sodium_mg": {
+          "amount": 1.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 3.802,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "170902": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.620300+00:00",
+      "fdc_id": 170902,
+      "description": "Yogurt, Greek, vanilla, nonfat",
+      "data_type": "SR Legacy",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 1,
+        "code": "0100",
+        "description": "Dairy and Egg Products"
+      },
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 78.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1062:Energy": {
+          "amount": 325.0,
+          "unit": "kJ",
+          "name": "Energy"
+        },
+        "1003:protein_g": {
+          "amount": 8.64,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 0.18,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 10.37,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 0.5,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "2000:sugars_g": {
+          "amount": 9.54,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1093:sodium_mg": {
+          "amount": 34.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.133,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "170903": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.786630+00:00",
+      "fdc_id": 170903,
+      "description": "Yogurt, Greek, plain, lowfat",
+      "data_type": "SR Legacy",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 1,
+        "code": "0100",
+        "description": "Dairy and Egg Products"
+      },
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 73.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1062:Energy": {
+          "amount": 305.0,
+          "unit": "kJ",
+          "name": "Energy"
+        },
+        "1003:protein_g": {
+          "amount": 9.95,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 1.92,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 3.94,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "2000:sugars_g": {
+          "amount": 3.56,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1093:sodium_mg": {
+          "amount": 34.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 1.23,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "172474": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.815436+00:00",
+      "fdc_id": 172474,
+      "description": "Soy sauce, reduced sodium, made from hydrolyzed vegetable protein",
+      "data_type": "SR Legacy",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 16,
+        "code": "1600",
+        "description": "Legumes and Legume Products"
+      },
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 90.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1062:Energy": {
+          "amount": 375.0,
+          "unit": "kJ",
+          "name": "Energy"
+        },
+        "1003:protein_g": {
+          "amount": 8.19,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 0.31,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 14.44,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 0.3,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "2000:sugars_g": {
+          "amount": 5.63,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1093:sodium_mg": {
+          "amount": 2890.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.02,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "173180": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.654697+00:00",
+      "fdc_id": 173180,
+      "description": "Beverages, Protein powder whey based",
+      "data_type": "SR Legacy",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 14,
+        "code": "1400",
+        "description": "Beverages"
+      },
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 352.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1062:Energy": {
+          "amount": 1472.0,
+          "unit": "kJ",
+          "name": "Energy"
+        },
+        "1003:protein_g": {
+          "amount": 78.13,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 1.56,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 6.25,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 3.1,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "2000:sugars_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1093:sodium_mg": {
+          "amount": 156.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.781,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "173744": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.807485+00:00",
+      "fdc_id": 173744,
+      "description": "Beans, kidney, red, mature seeds, raw",
+      "data_type": "SR Legacy",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 16,
+        "code": "1600",
+        "description": "Legumes and Legume Products"
+      },
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 337.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1062:Energy": {
+          "amount": 1408.0,
+          "unit": "kJ",
+          "name": "Energy"
+        },
+        "1003:protein_g": {
+          "amount": 22.53,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 1.06,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 61.29,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 15.2,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "2000:sugars_g": {
+          "amount": 2.1,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1093:sodium_mg": {
+          "amount": 12.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.154,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "174290": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.841027+00:00",
+      "fdc_id": 174290,
+      "description": "Tofu, extra firm, prepared with nigari",
+      "data_type": "SR Legacy",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 16,
+        "code": "1600",
+        "description": "Legumes and Legume Products"
+      },
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 83.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1062:Energy": {
+          "amount": 349.0,
+          "unit": "kJ",
+          "name": "Energy"
+        },
+        "1003:protein_g": {
+          "amount": 9.98,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 5.26,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 1.18,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 1.0,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "2000:sugars_g": {
+          "amount": 0.71,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1093:sodium_mg": {
+          "amount": 4.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.919,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "790085": {
+      "retrieved_at_utc": "2026-11-17T23:01:44.263090+00:00",
+      "fdc_id": 790085,
+      "description": "Flour, whole wheat, unenriched",
+      "data_type": "Foundation",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 20,
+        "code": "2000",
+        "description": "Cereal Grains and Pasta"
+      },
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 370.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1062:Energy": {
+          "amount": 1550.0,
+          "unit": "kJ",
+          "name": "Energy"
+        },
+        "1003:protein_g": {
+          "amount": 15.1,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 2.73,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 71.2,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 10.6,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 3.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        }
+      },
+      "error": null
+    },
+    "2054512": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.848403+00:00",
+      "fdc_id": 2054512,
+      "description": "KALA CHANA",
+      "data_type": "Branded",
+      "serving_size": 95.0,
+      "serving_size_unit": "g",
+      "food_category": null,
+      "nutrients": {
+        "2000:sugars_g": {
+          "amount": 1.05,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1079:fiber_g": {
+          "amount": 34.7,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 11.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        },
+        "1003:protein_g": {
+          "amount": 16.84,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1008:calories_kcal": {
+          "amount": 368.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 66.32,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1004:fat_g": {
+          "amount": 4.21,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        }
+      },
+      "error": null
+    },
+    "2076798": {
+      "retrieved_at_utc": "2026-11-17T23:01:43.895832+00:00",
+      "fdc_id": 2076798,
+      "description": "FAT-FREE GREEK YOGURT",
+      "data_type": "Branded",
+      "serving_size": 150.0,
+      "serving_size_unit": "g",
+      "food_category": null,
+      "nutrients": {
+        "1079:fiber_g": {
+          "amount": 0.7,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1003:protein_g": {
+          "amount": 7.33,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1093:sodium_mg": {
+          "amount": 33.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1004:fat_g": {
+          "amount": 1.33,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1008:calories_kcal": {
+          "amount": 93.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        },
+        "2000:sugars_g": {
+          "amount": 10.67,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 12.67,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        }
+      },
+      "error": null
+    },
+    "2134686": {
+      "retrieved_at_utc": "2026-11-17T23:01:44.017457+00:00",
+      "fdc_id": 2134686,
+      "description": "KALA CHANA",
+      "data_type": "Branded",
+      "serving_size": 35.0,
+      "serving_size_unit": "g",
+      "food_category": null,
+      "nutrients": {
+        "1008:calories_kcal": {
+          "amount": 363.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "2000:sugars_g": {
+          "amount": 11.43,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 60.0,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1093:sodium_mg": {
+          "amount": 23.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1079:fiber_g": {
+          "amount": 17.1,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1003:protein_g": {
+          "amount": 20.0,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 5.71,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "2310367": {
+      "retrieved_at_utc": "2026-11-17T23:01:44.054522+00:00",
+      "fdc_id": 2310367,
+      "description": "EXTRA-FIRM TOFU",
+      "data_type": "Branded",
+      "serving_size": 84.0,
+      "serving_size_unit": "g",
+      "food_category": null,
+      "nutrients": {
+        "1004:fat_g": {
+          "amount": 5.36,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.6,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        },
+        "1079:fiber_g": {
+          "amount": 1.2,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "2000:sugars_g": {
+          "amount": 1.19,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 3.57,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1093:sodium_mg": {
+          "amount": 6.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1003:protein_g": {
+          "amount": 10.71,
+          "unit": "g",
+          "name": "Protein"
+        }
+      },
+      "error": null
+    },
+    "2510560": {
+      "retrieved_at_utc": "2026-11-17T23:01:44.064890+00:00",
+      "fdc_id": 2510560,
+      "description": "WHEY PROTEIN 20 G POWDER, UNFLAVORED, UNFLAVORED",
+      "data_type": "Branded",
+      "serving_size": 25.0,
+      "serving_size_unit": "GRM",
+      "food_category": null,
+      "nutrients": {
+        "1004:fat_g": {
+          "amount": 4.0,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "2000:sugars_g": {
+          "amount": 4.0,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1008:calories_kcal": {
+          "amount": 360.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 4.0,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 4.0,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1003:protein_g": {
+          "amount": 80.0,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1079:fiber_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 160.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        }
+      },
+      "error": null
+    },
+    "2536668": {
+      "retrieved_at_utc": "2026-11-17T23:01:44.077324+00:00",
+      "fdc_id": 2536668,
+      "description": "LOW-FAT GREEK YOGURT",
+      "data_type": "Branded",
+      "serving_size": 128.0,
+      "serving_size_unit": "GRM",
+      "food_category": null,
+      "nutrients": {
+        "1093:sodium_mg": {
+          "amount": 55.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 17.19,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1004:fat_g": {
+          "amount": 3.12,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1003:protein_g": {
+          "amount": 6.25,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 1.95,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        },
+        "1079:fiber_g": {
+          "amount": 0.8,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1008:calories_kcal": {
+          "amount": 125.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "2000:sugars_g": {
+          "amount": 14.84,
+          "unit": "g",
+          "name": "Total Sugars"
+        }
+      },
+      "error": null
+    },
+    "2705423": {
+      "retrieved_at_utc": "2026-11-17T23:01:44.013074+00:00",
+      "fdc_id": 2705423,
+      "description": "Yogurt, Greek, low fat milk, plain",
+      "data_type": "Survey (FNDDS)",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": null,
+      "nutrients": {
+        "1003:protein_g": {
+          "amount": 10.2,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 1.36,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 3.6,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1008:calories_kcal": {
+          "amount": 67.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "2000:sugars_g": {
+          "amount": 3.24,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1079:fiber_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 36.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.726,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "2707379": {
+      "retrieved_at_utc": "2026-11-17T23:01:44.071597+00:00",
+      "fdc_id": 2707379,
+      "description": "Kidney beans, NFS",
+      "data_type": "Survey (FNDDS)",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": null,
+      "nutrients": {
+        "1003:protein_g": {
+          "amount": 8.06,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 6.97,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 21.2,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1008:calories_kcal": {
+          "amount": 177,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "2000:sugars_g": {
+          "amount": 0.3,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1079:fiber_g": {
+          "amount": 6.9,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 218,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.936,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "2707443": {
+      "retrieved_at_utc": "2026-11-17T23:01:44.199135+00:00",
+      "fdc_id": 2707443,
+      "description": "Soy sauce, reduced sodium",
+      "data_type": "Survey (FNDDS)",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": null,
+      "nutrients": {
+        "1003:protein_g": {
+          "amount": 9.05,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 0.3,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 5.59,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1008:calories_kcal": {
+          "amount": 57.0,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "2000:sugars_g": {
+          "amount": 0.5,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1079:fiber_g": {
+          "amount": 0.7,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 3600.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.035,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "2707485": {
+      "retrieved_at_utc": "2026-11-17T23:01:44.197939+00:00",
+      "fdc_id": 2707485,
+      "description": "Almonds, NFS",
+      "data_type": "Survey (FNDDS)",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": null,
+      "nutrients": {
+        "1003:protein_g": {
+          "amount": 21.0,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 52.5,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 21.0,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1008:calories_kcal": {
+          "amount": 598,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "2000:sugars_g": {
+          "amount": 4.86,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1079:fiber_g": {
+          "amount": 10.9,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 3.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 4.09,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "2707590": {
+      "retrieved_at_utc": "2026-11-17T23:01:44.224698+00:00",
+      "fdc_id": 2707590,
+      "description": "Chia seeds",
+      "data_type": "Survey (FNDDS)",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": null,
+      "nutrients": {
+        "1003:protein_g": {
+          "amount": 16.5,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 30.7,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 42.1,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1008:calories_kcal": {
+          "amount": 486,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "2000:sugars_g": {
+          "amount": 1.55,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1079:fiber_g": {
+          "amount": 34.4,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 16.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 3.33,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "2708489": {
+      "retrieved_at_utc": "2026-11-17T23:01:44.242472+00:00",
+      "fdc_id": 2708489,
+      "description": "Oats, raw",
+      "data_type": "Survey (FNDDS)",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": null,
+      "nutrients": {
+        "1003:protein_g": {
+          "amount": 13.2,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 6.52,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 67.7,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1008:calories_kcal": {
+          "amount": 379,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "2000:sugars_g": {
+          "amount": 0.99,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1079:fiber_g": {
+          "amount": 10.1,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 6.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 1.11,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "2709786": {
+      "retrieved_at_utc": "2026-11-17T23:01:44.257615+00:00",
+      "fdc_id": 2709786,
+      "description": "Garlic, raw",
+      "data_type": "Survey (FNDDS)",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": null,
+      "nutrients": {
+        "1003:protein_g": {
+          "amount": 6.62,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 0.38,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 28.2,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1008:calories_kcal": {
+          "amount": 143,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "2000:sugars_g": {
+          "amount": 1.0,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1079:fiber_g": {
+          "amount": 2.7,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 17.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.089,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "2710186": {
+      "retrieved_at_utc": "2026-11-17T23:01:44.235798+00:00",
+      "fdc_id": 2710186,
+      "description": "Olive oil",
+      "data_type": "Survey (FNDDS)",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": null,
+      "nutrients": {
+        "1003:protein_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 100,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1008:calories_kcal": {
+          "amount": 900,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "2000:sugars_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1079:fiber_g": {
+          "amount": 0.0,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 2.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 15.5,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "2710789": {
+      "retrieved_at_utc": "2026-11-17T23:01:44.358324+00:00",
+      "fdc_id": 2710789,
+      "description": "Rice, brown, cooked, as ingredient",
+      "data_type": "Survey (FNDDS)",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": null,
+      "nutrients": {
+        "1003:protein_g": {
+          "amount": 2.45,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 1.12,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 25.9,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1008:calories_kcal": {
+          "amount": 124,
+          "unit": "kcal",
+          "name": "Energy"
+        },
+        "2000:sugars_g": {
+          "amount": 0.22,
+          "unit": "g",
+          "name": "Total Sugars"
+        },
+        "1079:fiber_g": {
+          "amount": 1.0,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 3.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.2,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "2779253": {
+      "retrieved_at_utc": "2026-11-17T23:01:45.003394+00:00",
+      "fdc_id": 2779253,
+      "description": "Oats, puffed",
+      "data_type": "Foundation",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 20,
+        "code": "2000",
+        "description": "Cereal Grains and Pasta"
+      },
+      "nutrients": {
+        "2047:Energy (Atwater General Factors)": {
+          "amount": 402.11,
+          "unit": "kcal",
+          "name": "Energy (Atwater General Factors)"
+        },
+        "1003:protein_g": {
+          "amount": 14.5625,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 6.85,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 70.5525,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 8.79,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 0.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 1.375,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    },
+    "2779256": {
+      "retrieved_at_utc": "2026-11-17T23:01:45.024119+00:00",
+      "fdc_id": 2779256,
+      "description": "Brown rice, puffed",
+      "data_type": "Foundation",
+      "serving_size": null,
+      "serving_size_unit": null,
+      "food_category": {
+        "id": 20,
+        "code": "2000",
+        "description": "Cereal Grains and Pasta"
+      },
+      "nutrients": {
+        "2047:Energy (Atwater General Factors)": {
+          "amount": 377.14,
+          "unit": "kcal",
+          "name": "Energy (Atwater General Factors)"
+        },
+        "1003:protein_g": {
+          "amount": 7.8125,
+          "unit": "g",
+          "name": "Protein"
+        },
+        "1004:fat_g": {
+          "amount": 2.76,
+          "unit": "g",
+          "name": "Total lipid (fat)"
+        },
+        "1005:carbohydrate_g": {
+          "amount": 80.2625,
+          "unit": "g",
+          "name": "Carbohydrate, by difference"
+        },
+        "1079:fiber_g": {
+          "amount": 2.7,
+          "unit": "g",
+          "name": "Fiber, total dietary"
+        },
+        "1093:sodium_mg": {
+          "amount": 0.0,
+          "unit": "mg",
+          "name": "Sodium, Na"
+        },
+        "1258:saturated_fat_g": {
+          "amount": 0.67,
+          "unit": "g",
+          "name": "Fatty acids, total saturated"
+        }
+      },
+      "error": null
+    }
+  }
+}

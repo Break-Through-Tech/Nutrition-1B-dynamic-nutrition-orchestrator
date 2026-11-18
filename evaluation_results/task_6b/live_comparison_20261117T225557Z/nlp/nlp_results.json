@@ -1,0 +1,276 @@
+{
+  "captured_at_utc": "2026-11-17T22:56:41.358207+00:00",
+  "source": "Predictions reported by fresh live NLP run",
+  "rows": [
+    {
+      "original_ingredient": "oats",
+      "queries": "oats",
+      "selected_fdc_id": 2779253,
+      "selected_description": "Oats, puffed",
+      "expected_fdc_id": 2708489,
+      "correct": "No",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "quinoa",
+      "queries": "quinoa",
+      "selected_fdc_id": 168874,
+      "selected_description": "Quinoa, uncooked",
+      "expected_fdc_id": 168874,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "brown rice",
+      "queries": "brown rice",
+      "selected_fdc_id": 2779256,
+      "selected_description": "Brown rice, puffed",
+      "expected_fdc_id": 2710789,
+      "correct": "No",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "almonds",
+      "queries": "almonds",
+      "selected_fdc_id": 2707485,
+      "selected_description": "Almonds, NFS",
+      "expected_fdc_id": 2707485,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "chia seeds",
+      "queries": "chia seeds",
+      "selected_fdc_id": 2707590,
+      "selected_description": "Chia seeds",
+      "expected_fdc_id": 2707590,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "olive oil",
+      "queries": "olive oil",
+      "selected_fdc_id": 2710186,
+      "selected_description": "Olive oil",
+      "expected_fdc_id": 2710186,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "hing",
+      "queries": "asafoetida; hing",
+      "selected_fdc_id": null,
+      "selected_description": null,
+      "expected_fdc_id": null,
+      "correct": "Abstained",
+      "abstained": "Yes"
+    },
+    {
+      "original_ingredient": "rajma",
+      "queries": "kidney beans; rajma",
+      "selected_fdc_id": 2707379,
+      "selected_description": "Kidney beans, NFS",
+      "expected_fdc_id": 2707379,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "kasuri methi",
+      "queries": "fenugreek leaves dried; kasuri methi",
+      "selected_fdc_id": null,
+      "selected_description": null,
+      "expected_fdc_id": null,
+      "correct": "Abstained",
+      "abstained": "Yes"
+    },
+    {
+      "original_ingredient": "kala namak (black salt)",
+      "queries": "black salt; kala namak",
+      "selected_fdc_id": 2587261,
+      "selected_description": "BLACK SALT",
+      "expected_fdc_id": 2587261,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "whole wheat flour (atta)",
+      "queries": "whole wheat flour; wheat flour",
+      "selected_fdc_id": 790085,
+      "selected_description": "Flour, whole wheat, unenriched",
+      "expected_fdc_id": 790085,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "ghee",
+      "queries": "butter oil clarified; ghee",
+      "selected_fdc_id": 171314,
+      "selected_description": "Butter, Clarified butter (ghee)",
+      "expected_fdc_id": 171314,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "degi mirch",
+      "queries": "paprika; degi mirch",
+      "selected_fdc_id": 171329,
+      "selected_description": "Spices, paprika",
+      "expected_fdc_id": 171329,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "carom seeds (ajwain)",
+      "queries": "carom seeds",
+      "selected_fdc_id": null,
+      "selected_description": null,
+      "expected_fdc_id": null,
+      "correct": "Abstained",
+      "abstained": "Yes"
+    },
+    {
+      "original_ingredient": "dry soya chunks",
+      "queries": "dry textured vegetable protein soy; textured vegetable protein soy; dry soya chunks",
+      "selected_fdc_id": 2707451,
+      "selected_description": "Textured vegetable protein, dry",
+      "expected_fdc_id": 2707451,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "moong dal, soaked overnight",
+      "queries": "mung beans; moong dal",
+      "selected_fdc_id": 174256,
+      "selected_description": "Mung beans, mature seeds, raw",
+      "expected_fdc_id": 174256,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "low-fat paneer, crumbled",
+      "queries": "low-fat paneer cheese; paneer cheese; low-fat paneer",
+      "selected_fdc_id": 2705740,
+      "selected_description": "Cheese, paneer",
+      "expected_fdc_id": 2705740,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "extra-firm tofu, cubed",
+      "queries": "extra-firm tofu; tofu",
+      "selected_fdc_id": 2310367,
+      "selected_description": "EXTRA-FIRM TOFU",
+      "expected_fdc_id": 174290,
+      "correct": "No",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "kala chana, soaked overnight and boiled",
+      "queries": "chickpeas black; kala chana",
+      "selected_fdc_id": 2054512,
+      "selected_description": "KALA CHANA",
+      "expected_fdc_id": 2134686,
+      "correct": "No",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "kabuli chana, soaked and boiled",
+      "queries": "chickpeas; kabuli chana",
+      "selected_fdc_id": 2707414,
+      "selected_description": "Chickpeas, NFS",
+      "expected_fdc_id": 2707414,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "garlic, minced",
+      "queries": "garlic",
+      "selected_fdc_id": 2709786,
+      "selected_description": "Garlic, raw",
+      "expected_fdc_id": 2709786,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "low-fat Greek yogurt",
+      "queries": "low-fat greek yogurt; greek yogurt",
+      "selected_fdc_id": 2536668,
+      "selected_description": "LOW-FAT GREEK YOGURT",
+      "expected_fdc_id": 2705423,
+      "correct": "No",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "unflavored whey protein",
+      "queries": "unflavored whey protein; whey protein",
+      "selected_fdc_id": 2510560,
+      "selected_description": "WHEY PROTEIN 20 G POWDER, UNFLAVORED, UNFLAVORED",
+      "expected_fdc_id": 173180,
+      "correct": "No",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "low-sodium soy sauce",
+      "queries": "reduced sodium soy sauce; soy sauce; low-sodium soy sauce",
+      "selected_fdc_id": 2707443,
+      "selected_description": "Soy sauce, reduced sodium",
+      "expected_fdc_id": 2707443,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "fat-free Greek yogurt",
+      "queries": "fat-free greek yogurt; greek yogurt",
+      "selected_fdc_id": 2076798,
+      "selected_description": "FAT-FREE GREEK YOGURT",
+      "expected_fdc_id": 2076798,
+      "correct": "Yes",
+      "abstained": "No"
+    },
+    {
+      "original_ingredient": "whole black urad dal",
+      "queries": "black gram; black black gram; whole black urad dal",
+      "selected_fdc_id": null,
+      "selected_description": null,
+      "expected_fdc_id": 2168881,
+      "correct": "Abstained",
+      "abstained": "Yes"
+    },
+    {
+      "original_ingredient": "kadhai spice mix (crushed coriander seeds / dry red chili)",
+      "queries": "(not searched: composite)",
+      "selected_fdc_id": null,
+      "selected_description": null,
+      "expected_fdc_id": null,
+      "correct": "Abstained",
+      "abstained": "Yes"
+    },
+    {
+      "original_ingredient": "onion-tomato gravy base",
+      "queries": "(not searched: composite)",
+      "selected_fdc_id": null,
+      "selected_description": null,
+      "expected_fdc_id": null,
+      "correct": "Abstained",
+      "abstained": "Yes"
+    },
+    {
+      "original_ingredient": "mint-cilantro-yogurt chutney",
+      "queries": "(not searched: composite)",
+      "selected_fdc_id": null,
+      "selected_description": null,
+      "expected_fdc_id": null,
+      "correct": "Abstained",
+      "abstained": "Yes"
+    },
+    {
+      "original_ingredient": "quinoa-rice blend",
+      "queries": "(not searched: composite)",
+      "selected_fdc_id": null,
+      "selected_description": null,
+      "expected_fdc_id": null,
+      "correct": "Abstained",
+      "abstained": "Yes"
+    }
+  ]
+}

@@ -1,0 +1,1378 @@
+{
+  "source": "Manual evidence-based review of direct live USDA FDC record details; ambiguous cases excluded from metrics",
+  "retrieved_record_details_file": "fdc_record_details.json",
+  "tracks": {
+    "nlp": [
+      {
+        "ingredient": "oats",
+        "expected_fdc_id": 2708489,
+        "expected_description": "Oats, raw",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2779253,
+        "selected_description": "Oats, puffed",
+        "selected_data_type": "Foundation",
+        "stage": "nlp",
+        "classification": "Incorrect",
+        "rationale": "Puffed oats are explicitly a different preparation/form from the expected raw oats.",
+        "expected_per_100g": {
+          "calories_kcal": 379,
+          "protein_g": 13.2,
+          "carbohydrate_g": 67.7,
+          "fat_g": 6.52,
+          "fiber_g": 10.1
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": 14.5625,
+          "carbohydrate_g": 70.5525,
+          "fat_g": 6.85,
+          "fiber_g": 8.79
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": null,
+          "protein_g": 1.36,
+          "carbohydrate_g": 2.85,
+          "fat_g": 0.33,
+          "fiber_g": -1.31
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": null,
+          "protein_g": 10.3,
+          "carbohydrate_g": 4.2,
+          "fat_g": 5.1,
+          "fiber_g": -13.0
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": false,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          }
+        }
+      },
+      {
+        "ingredient": "brown rice",
+        "expected_fdc_id": 2710789,
+        "expected_description": "Rice, brown, cooked, as ingredient",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2779256,
+        "selected_description": "Brown rice, puffed",
+        "selected_data_type": "Foundation",
+        "stage": "nlp",
+        "classification": "Incorrect",
+        "rationale": "Expected record is cooked brown rice; selected record is puffed brown rice.",
+        "expected_per_100g": {
+          "calories_kcal": 124,
+          "protein_g": 2.45,
+          "carbohydrate_g": 25.9,
+          "fat_g": 1.12,
+          "fiber_g": 1.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": 7.8125,
+          "carbohydrate_g": 80.2625,
+          "fat_g": 2.76,
+          "fiber_g": 2.7
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": null,
+          "protein_g": 5.36,
+          "carbohydrate_g": 54.36,
+          "fat_g": 1.64,
+          "fiber_g": 1.7
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": null,
+          "protein_g": 218.9,
+          "carbohydrate_g": 209.9,
+          "fat_g": 146.4,
+          "fiber_g": 170.0
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": false,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          }
+        }
+      },
+      {
+        "ingredient": "extra-firm tofu, cubed",
+        "expected_fdc_id": 174290,
+        "expected_description": "Tofu, extra firm, prepared with nigari",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 2310367,
+        "selected_description": "EXTRA-FIRM TOFU",
+        "selected_data_type": "Branded",
+        "stage": "nlp",
+        "classification": "Ambiguous",
+        "rationale": "Both are extra-firm tofu, but selected branded detail has unavailable energy and does not establish ingredient formulation equivalence.",
+        "expected_per_100g": {
+          "calories_kcal": 83.0,
+          "protein_g": 9.98,
+          "carbohydrate_g": 1.18,
+          "fat_g": 5.26,
+          "fiber_g": 1.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": 10.71,
+          "carbohydrate_g": 3.57,
+          "fat_g": 5.36,
+          "fiber_g": 1.2
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": null,
+          "protein_g": 0.73,
+          "carbohydrate_g": 2.39,
+          "fat_g": 0.1,
+          "fiber_g": 0.2
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": null,
+          "protein_g": 7.3,
+          "carbohydrate_g": 202.5,
+          "fat_g": 1.9,
+          "fiber_g": 20.0
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": false,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          }
+        }
+      },
+      {
+        "ingredient": "kala chana, soaked overnight and boiled",
+        "expected_fdc_id": 2134686,
+        "expected_description": "KALA CHANA",
+        "expected_data_type": "Branded",
+        "selected_fdc_id": 2054512,
+        "selected_description": "KALA CHANA",
+        "selected_data_type": "Branded",
+        "stage": "nlp",
+        "classification": "Ambiguous",
+        "rationale": "Both descriptions say kala chana, but they are distinct branded records with sizable fiber/macronutrient differences and unclear preparation.",
+        "expected_per_100g": {
+          "calories_kcal": 363.0,
+          "protein_g": 20.0,
+          "carbohydrate_g": 60.0,
+          "fat_g": 5.71,
+          "fiber_g": 17.1
+        },
+        "selected_per_100g": {
+          "calories_kcal": 368.0,
+          "protein_g": 16.84,
+          "carbohydrate_g": 66.32,
+          "fat_g": 0.0,
+          "fiber_g": 34.7
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": 5.0,
+          "protein_g": -3.16,
+          "carbohydrate_g": 6.32,
+          "fat_g": -5.71,
+          "fiber_g": 17.6
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": 1.4,
+          "protein_g": -15.8,
+          "carbohydrate_g": 10.5,
+          "fat_g": -100.0,
+          "fiber_g": 102.9
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": true
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          }
+        }
+      },
+      {
+        "ingredient": "low-fat Greek yogurt",
+        "expected_fdc_id": 2705423,
+        "expected_description": "Yogurt, Greek, low fat milk, plain",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2536668,
+        "selected_description": "LOW-FAT GREEK YOGURT",
+        "selected_data_type": "Branded",
+        "stage": "nlp",
+        "classification": "Ambiguous",
+        "rationale": "Selected branded description omits plainness; its carbohydrate and calorie values differ substantially from the expected plain FNDDS yogurt.",
+        "expected_per_100g": {
+          "calories_kcal": 67.0,
+          "protein_g": 10.2,
+          "carbohydrate_g": 3.6,
+          "fat_g": 1.36,
+          "fiber_g": 0.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 125.0,
+          "protein_g": 6.25,
+          "carbohydrate_g": 17.19,
+          "fat_g": 3.12,
+          "fiber_g": 0.8
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": 58.0,
+          "protein_g": -3.95,
+          "carbohydrate_g": 13.59,
+          "fat_g": 1.76,
+          "fiber_g": 0.8
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": 86.6,
+          "protein_g": -38.7,
+          "carbohydrate_g": 377.5,
+          "fat_g": 129.4,
+          "fiber_g": null
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": true,
+            "reported_zero_selected": false
+          }
+        }
+      },
+      {
+        "ingredient": "unflavored whey protein",
+        "expected_fdc_id": 173180,
+        "expected_description": "Beverages, Protein powder whey based",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 2510560,
+        "selected_description": "WHEY PROTEIN 20 G POWDER, UNFLAVORED, UNFLAVORED",
+        "selected_data_type": "Branded",
+        "stage": "nlp",
+        "classification": "Ambiguous",
+        "rationale": "Selected record is an unflavored branded powder, but formulation and fiber/nutrient values differ; broad product identity is insufficient.",
+        "expected_per_100g": {
+          "calories_kcal": 352.0,
+          "protein_g": 78.13,
+          "carbohydrate_g": 6.25,
+          "fat_g": 1.56,
+          "fiber_g": 3.1
+        },
+        "selected_per_100g": {
+          "calories_kcal": 360.0,
+          "protein_g": 80.0,
+          "carbohydrate_g": 4.0,
+          "fat_g": 4.0,
+          "fiber_g": 0.0
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": 8.0,
+          "protein_g": 1.87,
+          "carbohydrate_g": -2.25,
+          "fat_g": 2.44,
+          "fiber_g": -3.1
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": 2.3,
+          "protein_g": 2.4,
+          "carbohydrate_g": -36.0,
+          "fat_g": 156.4,
+          "fiber_g": -100.0
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": true
+          }
+        }
+      }
+    ],
+    "hybrid": [
+      {
+        "ingredient": "oats",
+        "expected_fdc_id": 2708489,
+        "expected_description": "Oats, raw",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 169705,
+        "selected_description": "Oats (Includes foods for USDA's Food Distribution Program)",
+        "selected_data_type": "SR Legacy",
+        "stage": "sr_legacy",
+        "classification": "Verified equivalent",
+        "rationale": "Generic SR Legacy oats record has no contradictory preparation label; its per-100g profile is close to expected raw oats.",
+        "expected_per_100g": {
+          "calories_kcal": 379,
+          "protein_g": 13.2,
+          "carbohydrate_g": 67.7,
+          "fat_g": 6.52,
+          "fiber_g": 10.1
+        },
+        "selected_per_100g": {
+          "calories_kcal": 389.0,
+          "protein_g": 16.89,
+          "carbohydrate_g": 66.27,
+          "fat_g": 6.9,
+          "fiber_g": 10.6
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": 10.0,
+          "protein_g": 3.69,
+          "carbohydrate_g": -1.43,
+          "fat_g": 0.38,
+          "fiber_g": 0.5
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": 2.6,
+          "protein_g": 28.0,
+          "carbohydrate_g": -2.1,
+          "fat_g": 5.8,
+          "fiber_g": 5.0
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          }
+        }
+      },
+      {
+        "ingredient": "brown rice",
+        "expected_fdc_id": 2710789,
+        "expected_description": "Rice, brown, cooked, as ingredient",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 168876,
+        "selected_description": "Rice, brown, parboiled, dry, UNCLE BEN'S",
+        "selected_data_type": "SR Legacy",
+        "stage": "sr_legacy",
+        "classification": "Incorrect",
+        "rationale": "Expected record is cooked brown rice; selected record is dry, parboiled, branded brown rice.",
+        "expected_per_100g": {
+          "calories_kcal": 124,
+          "protein_g": 2.45,
+          "carbohydrate_g": 25.9,
+          "fat_g": 1.12,
+          "fiber_g": 1.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 370.0,
+          "protein_g": 7.6,
+          "carbohydrate_g": 78.68,
+          "fat_g": 2.75,
+          "fiber_g": 3.5
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": 246.0,
+          "protein_g": 5.15,
+          "carbohydrate_g": 52.78,
+          "fat_g": 1.63,
+          "fiber_g": 2.5
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": 198.4,
+          "protein_g": 210.2,
+          "carbohydrate_g": 203.8,
+          "fat_g": 145.5,
+          "fiber_g": 250.0
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          }
+        }
+      },
+      {
+        "ingredient": "almonds",
+        "expected_fdc_id": 2707485,
+        "expected_description": "Almonds, NFS",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 170567,
+        "selected_description": "Nuts, almonds",
+        "selected_data_type": "SR Legacy",
+        "stage": "sr_legacy",
+        "classification": "Verified equivalent",
+        "rationale": "Both are generic almonds; no conflicting preparation or modifier; profiles are close.",
+        "expected_per_100g": {
+          "calories_kcal": 598,
+          "protein_g": 21.0,
+          "carbohydrate_g": 21.0,
+          "fat_g": 52.5,
+          "fiber_g": 10.9
+        },
+        "selected_per_100g": {
+          "calories_kcal": 579.0,
+          "protein_g": 21.15,
+          "carbohydrate_g": 21.55,
+          "fat_g": 49.93,
+          "fiber_g": 12.5
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": -19.0,
+          "protein_g": 0.15,
+          "carbohydrate_g": 0.55,
+          "fat_g": -2.57,
+          "fiber_g": 1.6
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": -3.2,
+          "protein_g": 0.7,
+          "carbohydrate_g": 2.6,
+          "fat_g": -4.9,
+          "fiber_g": 14.7
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          }
+        }
+      },
+      {
+        "ingredient": "chia seeds",
+        "expected_fdc_id": 2707590,
+        "expected_description": "Chia seeds",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 170554,
+        "selected_description": "Seeds, chia seeds, dried",
+        "selected_data_type": "SR Legacy",
+        "stage": "sr_legacy",
+        "classification": "Verified equivalent",
+        "rationale": "Both are chia seeds; SR Legacy explicitly dried and the FNDDS seed profile agrees closely.",
+        "expected_per_100g": {
+          "calories_kcal": 486,
+          "protein_g": 16.5,
+          "carbohydrate_g": 42.1,
+          "fat_g": 30.7,
+          "fiber_g": 34.4
+        },
+        "selected_per_100g": {
+          "calories_kcal": 486.0,
+          "protein_g": 16.54,
+          "carbohydrate_g": 42.12,
+          "fat_g": 30.74,
+          "fiber_g": 34.4
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": 0.0,
+          "protein_g": 0.04,
+          "carbohydrate_g": 0.02,
+          "fat_g": 0.04,
+          "fiber_g": 0.0
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": 0.0,
+          "protein_g": 0.2,
+          "carbohydrate_g": 0.0,
+          "fat_g": 0.1,
+          "fiber_g": 0.0
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          }
+        }
+      },
+      {
+        "ingredient": "olive oil",
+        "expected_fdc_id": 2710186,
+        "expected_description": "Olive oil",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 167737,
+        "selected_description": "Oil, corn, peanut, and olive",
+        "selected_data_type": "SR Legacy",
+        "stage": "sr_legacy",
+        "classification": "Incorrect",
+        "rationale": "Selected SR Legacy record is a corn/peanut/olive oil blend, not pure olive oil.",
+        "expected_per_100g": {
+          "calories_kcal": 900,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 100,
+          "fiber_g": 0.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 884.0,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 100.0,
+          "fiber_g": 0.0
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": -16.0,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 0.0,
+          "fiber_g": 0.0
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": -1.8,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": 0.0,
+          "fiber_g": null
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": true,
+            "reported_zero_selected": true
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": true,
+            "reported_zero_selected": true
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": true,
+            "reported_zero_selected": true
+          }
+        }
+      },
+      {
+        "ingredient": "rajma",
+        "expected_fdc_id": 2707379,
+        "expected_description": "Kidney beans, NFS",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 173744,
+        "selected_description": "Beans, kidney, red, mature seeds, raw",
+        "selected_data_type": "SR Legacy",
+        "stage": "sr_legacy",
+        "classification": "Incorrect",
+        "rationale": "Selected record explicitly describes raw mature kidney beans; expected FNDDS NFS record has a prepared-food nutrient profile. Preparation is incompatible.",
+        "expected_per_100g": {
+          "calories_kcal": 177,
+          "protein_g": 8.06,
+          "carbohydrate_g": 21.2,
+          "fat_g": 6.97,
+          "fiber_g": 6.9
+        },
+        "selected_per_100g": {
+          "calories_kcal": 337.0,
+          "protein_g": 22.53,
+          "carbohydrate_g": 61.29,
+          "fat_g": 1.06,
+          "fiber_g": 15.2
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": 160.0,
+          "protein_g": 14.47,
+          "carbohydrate_g": 40.09,
+          "fat_g": -5.91,
+          "fiber_g": 8.3
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": 90.4,
+          "protein_g": 179.5,
+          "carbohydrate_g": 189.1,
+          "fat_g": -84.8,
+          "fiber_g": 120.3
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          }
+        }
+      },
+      {
+        "ingredient": "whole wheat flour (atta)",
+        "expected_fdc_id": 790085,
+        "expected_description": "Flour, whole wheat, unenriched",
+        "expected_data_type": "Foundation",
+        "selected_fdc_id": 168944,
+        "selected_description": "Wheat flour, whole-grain, soft wheat",
+        "selected_data_type": "SR Legacy",
+        "stage": "sr_legacy",
+        "classification": "Ambiguous",
+        "rationale": "Both are whole-wheat flour, but selected record specifies soft wheat and profile differs materially; atta subtype is not established.",
+        "expected_per_100g": {
+          "calories_kcal": 370.0,
+          "protein_g": 15.1,
+          "carbohydrate_g": 71.2,
+          "fat_g": 2.73,
+          "fiber_g": 10.6
+        },
+        "selected_per_100g": {
+          "calories_kcal": 332.0,
+          "protein_g": 9.61,
+          "carbohydrate_g": 74.48,
+          "fat_g": 1.95,
+          "fiber_g": 13.1
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": -38.0,
+          "protein_g": -5.49,
+          "carbohydrate_g": 3.28,
+          "fat_g": -0.78,
+          "fiber_g": 2.5
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": -10.3,
+          "protein_g": -36.4,
+          "carbohydrate_g": 4.6,
+          "fat_g": -28.6,
+          "fiber_g": 23.6
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          }
+        }
+      },
+      {
+        "ingredient": "kala chana, soaked overnight and boiled",
+        "expected_fdc_id": 2134686,
+        "expected_description": "KALA CHANA",
+        "expected_data_type": "Branded",
+        "selected_fdc_id": 2054512,
+        "selected_description": "KALA CHANA",
+        "selected_data_type": "Branded",
+        "stage": "nlp_fallback",
+        "classification": "Ambiguous",
+        "rationale": "Same branded name, but distinct records have large fiber and macro differences; detail does not resolve whether products/formulation or prep differ.",
+        "expected_per_100g": {
+          "calories_kcal": 363.0,
+          "protein_g": 20.0,
+          "carbohydrate_g": 60.0,
+          "fat_g": 5.71,
+          "fiber_g": 17.1
+        },
+        "selected_per_100g": {
+          "calories_kcal": 368.0,
+          "protein_g": 16.84,
+          "carbohydrate_g": 66.32,
+          "fat_g": 0.0,
+          "fiber_g": 34.7
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": 5.0,
+          "protein_g": -3.16,
+          "carbohydrate_g": 6.32,
+          "fat_g": -5.71,
+          "fiber_g": 17.6
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": 1.4,
+          "protein_g": -15.8,
+          "carbohydrate_g": 10.5,
+          "fat_g": -100.0,
+          "fiber_g": 102.9
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": true
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          }
+        }
+      },
+      {
+        "ingredient": "garlic, minced",
+        "expected_fdc_id": 2709786,
+        "expected_description": "Garlic, raw",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 169230,
+        "selected_description": "Garlic, raw",
+        "selected_data_type": "SR Legacy",
+        "stage": "sr_legacy",
+        "classification": "Verified equivalent",
+        "rationale": "Expected is raw garlic; selected is raw garlic. Minced form is compatible; per-100g values are close.",
+        "expected_per_100g": {
+          "calories_kcal": 143,
+          "protein_g": 6.62,
+          "carbohydrate_g": 28.2,
+          "fat_g": 0.38,
+          "fiber_g": 2.7
+        },
+        "selected_per_100g": {
+          "calories_kcal": 149.0,
+          "protein_g": 6.36,
+          "carbohydrate_g": 33.06,
+          "fat_g": 0.5,
+          "fiber_g": 2.1
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": 6.0,
+          "protein_g": -0.26,
+          "carbohydrate_g": 4.86,
+          "fat_g": 0.12,
+          "fiber_g": -0.6
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": 4.2,
+          "protein_g": -3.9,
+          "carbohydrate_g": 17.2,
+          "fat_g": 31.6,
+          "fiber_g": -22.2
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          }
+        }
+      },
+      {
+        "ingredient": "low-fat Greek yogurt",
+        "expected_fdc_id": 2705423,
+        "expected_description": "Yogurt, Greek, low fat milk, plain",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 170903,
+        "selected_description": "Yogurt, Greek, plain, lowfat",
+        "selected_data_type": "SR Legacy",
+        "stage": "sr_legacy",
+        "classification": "Verified equivalent",
+        "rationale": "Both descriptions specify plain low-fat Greek yogurt; per-100g values are close.",
+        "expected_per_100g": {
+          "calories_kcal": 67.0,
+          "protein_g": 10.2,
+          "carbohydrate_g": 3.6,
+          "fat_g": 1.36,
+          "fiber_g": 0.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 73.0,
+          "protein_g": 9.95,
+          "carbohydrate_g": 3.94,
+          "fat_g": 1.92,
+          "fiber_g": 0.0
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": 6.0,
+          "protein_g": -0.25,
+          "carbohydrate_g": 0.34,
+          "fat_g": 0.56,
+          "fiber_g": 0.0
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": 9.0,
+          "protein_g": -2.5,
+          "carbohydrate_g": 9.4,
+          "fat_g": 41.2,
+          "fiber_g": null
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": true,
+            "reported_zero_selected": true
+          }
+        }
+      },
+      {
+        "ingredient": "unflavored whey protein",
+        "expected_fdc_id": 173180,
+        "expected_description": "Beverages, Protein powder whey based",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 2510560,
+        "selected_description": "WHEY PROTEIN 20 G POWDER, UNFLAVORED, UNFLAVORED",
+        "selected_data_type": "Branded",
+        "stage": "nlp_fallback",
+        "classification": "Ambiguous",
+        "rationale": "Branded unflavored whey powder is plausible, but a specific 20 g powder formulation and differing nutrients prevent confident equivalence.",
+        "expected_per_100g": {
+          "calories_kcal": 352.0,
+          "protein_g": 78.13,
+          "carbohydrate_g": 6.25,
+          "fat_g": 1.56,
+          "fiber_g": 3.1
+        },
+        "selected_per_100g": {
+          "calories_kcal": 360.0,
+          "protein_g": 80.0,
+          "carbohydrate_g": 4.0,
+          "fat_g": 4.0,
+          "fiber_g": 0.0
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": 8.0,
+          "protein_g": 1.87,
+          "carbohydrate_g": -2.25,
+          "fat_g": 2.44,
+          "fiber_g": -3.1
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": 2.3,
+          "protein_g": 2.4,
+          "carbohydrate_g": -36.0,
+          "fat_g": 156.4,
+          "fiber_g": -100.0
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": true
+          }
+        }
+      },
+      {
+        "ingredient": "low-sodium soy sauce",
+        "expected_fdc_id": 2707443,
+        "expected_description": "Soy sauce, reduced sodium",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 172474,
+        "selected_description": "Soy sauce, reduced sodium, made from hydrolyzed vegetable protein",
+        "selected_data_type": "SR Legacy",
+        "stage": "sr_legacy",
+        "classification": "Incorrect",
+        "rationale": "Selected is reduced-sodium sauce made from hydrolyzed vegetable protein, a different formulation from soy sauce.",
+        "expected_per_100g": {
+          "calories_kcal": 57.0,
+          "protein_g": 9.05,
+          "carbohydrate_g": 5.59,
+          "fat_g": 0.3,
+          "fiber_g": 0.7
+        },
+        "selected_per_100g": {
+          "calories_kcal": 90.0,
+          "protein_g": 8.19,
+          "carbohydrate_g": 14.44,
+          "fat_g": 0.31,
+          "fiber_g": 0.3
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": 33.0,
+          "protein_g": -0.86,
+          "carbohydrate_g": 8.85,
+          "fat_g": 0.01,
+          "fiber_g": -0.4
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": 57.9,
+          "protein_g": -9.5,
+          "carbohydrate_g": 158.3,
+          "fat_g": 3.3,
+          "fiber_g": -57.1
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          }
+        }
+      },
+      {
+        "ingredient": "fat-free Greek yogurt",
+        "expected_fdc_id": 2076798,
+        "expected_description": "FAT-FREE GREEK YOGURT",
+        "expected_data_type": "Branded",
+        "selected_fdc_id": 170902,
+        "selected_description": "Yogurt, Greek, vanilla, nonfat",
+        "selected_data_type": "SR Legacy",
+        "stage": "sr_legacy",
+        "classification": "Incorrect",
+        "rationale": "Expected is fat-free Greek yogurt; selected SR Legacy record is vanilla nonfat yogurt, a meaningful flavor/formulation modifier.",
+        "expected_per_100g": {
+          "calories_kcal": 93.0,
+          "protein_g": 7.33,
+          "carbohydrate_g": 12.67,
+          "fat_g": 1.33,
+          "fiber_g": 0.7
+        },
+        "selected_per_100g": {
+          "calories_kcal": 78.0,
+          "protein_g": 8.64,
+          "carbohydrate_g": 10.37,
+          "fat_g": 0.18,
+          "fiber_g": 0.5
+        },
+        "absolute_delta_selected_minus_expected": {
+          "calories_kcal": -15.0,
+          "protein_g": 1.31,
+          "carbohydrate_g": -2.3,
+          "fat_g": -1.15,
+          "fiber_g": -0.2
+        },
+        "percent_delta_selected_vs_expected": {
+          "calories_kcal": -16.1,
+          "protein_g": 17.9,
+          "carbohydrate_g": -18.2,
+          "fat_g": -86.5,
+          "fiber_g": -28.6
+        },
+        "nutrient_presence": {
+          "calories_kcal": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "protein_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "carbohydrate_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fat_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          },
+          "fiber_g": {
+            "expected": true,
+            "selected": true,
+            "reported_zero_expected": false,
+            "reported_zero_selected": false
+          }
+        }
+      }
+    ]
+  }
+}
