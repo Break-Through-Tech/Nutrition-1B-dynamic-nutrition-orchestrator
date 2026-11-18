@@ -1,0 +1,1677 @@
+{
+  "source": "Manual equivalence review using prior Nov 17 NLP direct FDC review and fresh direct FDC details for updated hybrid",
+  "ambiguous_cases_excluded_from_metrics": true,
+  "nutrient_order_per_100g": [
+    "calories_kcal",
+    "protein_g",
+    "carbohydrate_g",
+    "fat_g",
+    "fiber_g"
+  ],
+  "tracks": {
+    "nlp": [
+      {
+        "ingredient": "oats",
+        "expected_fdc_id": 2708489,
+        "expected_description": "Oats, raw",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2779253,
+        "selected_description": "Oats, puffed",
+        "selected_data_type": "Foundation",
+        "matching_stage": "original_nlp",
+        "exact_id_match": false,
+        "classification": "Incorrect",
+        "rationale": "Puffed oats are explicitly a different preparation/form from the expected raw oats.",
+        "expected_per_100g": {
+          "calories_kcal": 379.0,
+          "protein_g": 13.2,
+          "carbohydrate_g": 67.7,
+          "fat_g": 6.52,
+          "fiber_g": 10.1
+        },
+        "selected_per_100g": {
+          "calories_kcal": 402.11,
+          "protein_g": 14.5625,
+          "carbohydrate_g": 70.5525,
+          "fat_g": 6.85,
+          "fiber_g": 8.79
+        }
+      },
+      {
+        "ingredient": "quinoa",
+        "expected_fdc_id": 168874,
+        "expected_description": "Quinoa, uncooked",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 168874,
+        "selected_description": "Quinoa, uncooked",
+        "selected_data_type": "SR Legacy",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 367.82982791586994,
+          "protein_g": 14.12,
+          "carbohydrate_g": 64.16,
+          "fat_g": 6.07,
+          "fiber_g": 7.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 367.82982791586994,
+          "protein_g": 14.12,
+          "carbohydrate_g": 64.16,
+          "fat_g": 6.07,
+          "fiber_g": 7.0
+        }
+      },
+      {
+        "ingredient": "brown rice",
+        "expected_fdc_id": 2710789,
+        "expected_description": "Rice, brown, cooked, as ingredient",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2779256,
+        "selected_description": "Brown rice, puffed",
+        "selected_data_type": "Foundation",
+        "matching_stage": "original_nlp",
+        "exact_id_match": false,
+        "classification": "Incorrect",
+        "rationale": "Expected record is cooked brown rice; selected record is puffed brown rice.",
+        "expected_per_100g": {
+          "calories_kcal": 124.0,
+          "protein_g": 2.45,
+          "carbohydrate_g": 25.9,
+          "fat_g": 1.12,
+          "fiber_g": 1.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 377.14,
+          "protein_g": 7.8125,
+          "carbohydrate_g": 80.2625,
+          "fat_g": 2.76,
+          "fiber_g": 2.7
+        }
+      },
+      {
+        "ingredient": "almonds",
+        "expected_fdc_id": 2707485,
+        "expected_description": "Almonds, NFS",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2707485,
+        "selected_description": "Almonds, NFS",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 598.0,
+          "protein_g": 21.0,
+          "carbohydrate_g": 21.0,
+          "fat_g": 52.5,
+          "fiber_g": 10.9
+        },
+        "selected_per_100g": {
+          "calories_kcal": 598.0,
+          "protein_g": 21.0,
+          "carbohydrate_g": 21.0,
+          "fat_g": 52.5,
+          "fiber_g": 10.9
+        }
+      },
+      {
+        "ingredient": "chia seeds",
+        "expected_fdc_id": 2707590,
+        "expected_description": "Chia seeds",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2707590,
+        "selected_description": "Chia seeds",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 486.0,
+          "protein_g": 16.5,
+          "carbohydrate_g": 42.1,
+          "fat_g": 30.7,
+          "fiber_g": 34.4
+        },
+        "selected_per_100g": {
+          "calories_kcal": 486.0,
+          "protein_g": 16.5,
+          "carbohydrate_g": 42.1,
+          "fat_g": 30.7,
+          "fiber_g": 34.4
+        }
+      },
+      {
+        "ingredient": "olive oil",
+        "expected_fdc_id": 2710186,
+        "expected_description": "Olive oil",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2710186,
+        "selected_description": "Olive oil",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 900.0,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 100.0,
+          "fiber_g": 0.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 900.0,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 100.0,
+          "fiber_g": 0.0
+        }
+      },
+      {
+        "ingredient": "hing",
+        "expected_fdc_id": null,
+        "expected_description": null,
+        "expected_data_type": null,
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": "original_nlp",
+        "exact_id_match": false,
+        "classification": "Correct abstention",
+        "rationale": "No expected match is labeled for this example; abstention is correct.",
+        "expected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      },
+      {
+        "ingredient": "rajma",
+        "expected_fdc_id": 2707379,
+        "expected_description": "Kidney beans, NFS",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2707379,
+        "selected_description": "Kidney beans, NFS",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 177.0,
+          "protein_g": 8.06,
+          "carbohydrate_g": 21.2,
+          "fat_g": 6.97,
+          "fiber_g": 6.9
+        },
+        "selected_per_100g": {
+          "calories_kcal": 177.0,
+          "protein_g": 8.06,
+          "carbohydrate_g": 21.2,
+          "fat_g": 6.97,
+          "fiber_g": 6.9
+        }
+      },
+      {
+        "ingredient": "kasuri methi",
+        "expected_fdc_id": null,
+        "expected_description": null,
+        "expected_data_type": null,
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": "original_nlp",
+        "exact_id_match": false,
+        "classification": "Correct abstention",
+        "rationale": "No expected match is labeled for this example; abstention is correct.",
+        "expected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      },
+      {
+        "ingredient": "kala namak (black salt)",
+        "expected_fdc_id": 2587261,
+        "expected_description": "BLACK SALT",
+        "expected_data_type": "Branded",
+        "selected_fdc_id": 2587261,
+        "selected_description": "BLACK SALT",
+        "selected_data_type": "Branded",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 0.0,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 0.0,
+          "fiber_g": 0.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 0.0,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 0.0,
+          "fiber_g": 0.0
+        }
+      },
+      {
+        "ingredient": "whole wheat flour (atta)",
+        "expected_fdc_id": 790085,
+        "expected_description": "Flour, whole wheat, unenriched",
+        "expected_data_type": "Foundation",
+        "selected_fdc_id": 790085,
+        "selected_description": "Flour, whole wheat, unenriched",
+        "selected_data_type": "Foundation",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 370.4588910133843,
+          "protein_g": 15.1,
+          "carbohydrate_g": 71.2,
+          "fat_g": 2.73,
+          "fiber_g": 10.6
+        },
+        "selected_per_100g": {
+          "calories_kcal": 370.4588910133843,
+          "protein_g": 15.1,
+          "carbohydrate_g": 71.2,
+          "fat_g": 2.73,
+          "fiber_g": 10.6
+        }
+      },
+      {
+        "ingredient": "ghee",
+        "expected_fdc_id": 171314,
+        "expected_description": "Butter, Clarified butter (ghee)",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 171314,
+        "selected_description": "Butter, Clarified butter (ghee)",
+        "selected_data_type": "SR Legacy",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 900.095602294455,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 100.0,
+          "fiber_g": 0.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 900.095602294455,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 100.0,
+          "fiber_g": 0.0
+        }
+      },
+      {
+        "ingredient": "degi mirch",
+        "expected_fdc_id": 171329,
+        "expected_description": "Spices, paprika",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 171329,
+        "selected_description": "Spices, paprika",
+        "selected_data_type": "SR Legacy",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 282.2657743785851,
+          "protein_g": 14.14,
+          "carbohydrate_g": 53.99,
+          "fat_g": 12.89,
+          "fiber_g": 34.9
+        },
+        "selected_per_100g": {
+          "calories_kcal": 282.2657743785851,
+          "protein_g": 14.14,
+          "carbohydrate_g": 53.99,
+          "fat_g": 12.89,
+          "fiber_g": 34.9
+        }
+      },
+      {
+        "ingredient": "carom seeds (ajwain)",
+        "expected_fdc_id": null,
+        "expected_description": null,
+        "expected_data_type": null,
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": "original_nlp",
+        "exact_id_match": false,
+        "classification": "Correct abstention",
+        "rationale": "No expected match is labeled for this example; abstention is correct.",
+        "expected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      },
+      {
+        "ingredient": "dry soya chunks",
+        "expected_fdc_id": 2707451,
+        "expected_description": "Textured vegetable protein, dry",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2707451,
+        "selected_description": "Textured vegetable protein, dry",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 366.0,
+          "protein_g": 51.1,
+          "carbohydrate_g": 32.9,
+          "fat_g": 3.33,
+          "fiber_g": 17.5
+        },
+        "selected_per_100g": {
+          "calories_kcal": 366.0,
+          "protein_g": 51.1,
+          "carbohydrate_g": 32.9,
+          "fat_g": 3.33,
+          "fiber_g": 17.5
+        }
+      },
+      {
+        "ingredient": "moong dal, soaked overnight",
+        "expected_fdc_id": 174256,
+        "expected_description": "Mung beans, mature seeds, raw",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 174256,
+        "selected_description": "Mung beans, mature seeds, raw",
+        "selected_data_type": "SR Legacy",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 347.0363288718929,
+          "protein_g": 23.86,
+          "carbohydrate_g": 62.62,
+          "fat_g": 1.15,
+          "fiber_g": 16.3
+        },
+        "selected_per_100g": {
+          "calories_kcal": 347.0363288718929,
+          "protein_g": 23.86,
+          "carbohydrate_g": 62.62,
+          "fat_g": 1.15,
+          "fiber_g": 16.3
+        }
+      },
+      {
+        "ingredient": "low-fat paneer, crumbled",
+        "expected_fdc_id": 2705740,
+        "expected_description": "Cheese, paneer",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2705740,
+        "selected_description": "Cheese, paneer",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 299.0,
+          "protein_g": 15.9,
+          "carbohydrate_g": 22.5,
+          "fat_g": 15.5,
+          "fiber_g": 0.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 299.0,
+          "protein_g": 15.9,
+          "carbohydrate_g": 22.5,
+          "fat_g": 15.5,
+          "fiber_g": 0.0
+        }
+      },
+      {
+        "ingredient": "extra-firm tofu, cubed",
+        "expected_fdc_id": 174290,
+        "expected_description": "Tofu, extra firm, prepared with nigari",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 2310367,
+        "selected_description": "EXTRA-FIRM TOFU",
+        "selected_data_type": "Branded",
+        "matching_stage": "original_nlp",
+        "exact_id_match": false,
+        "classification": "Ambiguous",
+        "rationale": "Both are extra-firm tofu, but selected branded detail has unavailable energy and does not establish ingredient formulation equivalence.",
+        "expected_per_100g": {
+          "calories_kcal": 83.41300191204589,
+          "protein_g": 9.98,
+          "carbohydrate_g": 1.18,
+          "fat_g": 5.26,
+          "fiber_g": 1.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": 10.71,
+          "carbohydrate_g": 3.57,
+          "fat_g": 5.36,
+          "fiber_g": 1.2
+        }
+      },
+      {
+        "ingredient": "kala chana, soaked overnight and boiled",
+        "expected_fdc_id": 2134686,
+        "expected_description": "KALA CHANA",
+        "expected_data_type": "Branded",
+        "selected_fdc_id": 2054512,
+        "selected_description": "KALA CHANA",
+        "selected_data_type": "Branded",
+        "matching_stage": "original_nlp",
+        "exact_id_match": false,
+        "classification": "Ambiguous",
+        "rationale": "Both descriptions say kala chana, but they are distinct branded records with sizable fiber/macronutrient differences and unclear preparation.",
+        "expected_per_100g": {
+          "calories_kcal": 363.0,
+          "protein_g": 20.0,
+          "carbohydrate_g": 60.0,
+          "fat_g": 5.71,
+          "fiber_g": 17.1
+        },
+        "selected_per_100g": {
+          "calories_kcal": 368.0,
+          "protein_g": 16.84,
+          "carbohydrate_g": 66.32,
+          "fat_g": 4.21,
+          "fiber_g": 34.7
+        }
+      },
+      {
+        "ingredient": "kabuli chana, soaked and boiled",
+        "expected_fdc_id": 2707414,
+        "expected_description": "Chickpeas, NFS",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2707414,
+        "selected_description": "Chickpeas, NFS",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 211.0,
+          "protein_g": 8.23,
+          "carbohydrate_g": 25.5,
+          "fat_g": 8.91,
+          "fiber_g": 7.1
+        },
+        "selected_per_100g": {
+          "calories_kcal": 211.0,
+          "protein_g": 8.23,
+          "carbohydrate_g": 25.5,
+          "fat_g": 8.91,
+          "fiber_g": 7.1
+        }
+      },
+      {
+        "ingredient": "garlic, minced",
+        "expected_fdc_id": 2709786,
+        "expected_description": "Garlic, raw",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2709786,
+        "selected_description": "Garlic, raw",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 143.0,
+          "protein_g": 6.62,
+          "carbohydrate_g": 28.2,
+          "fat_g": 0.38,
+          "fiber_g": 2.7
+        },
+        "selected_per_100g": {
+          "calories_kcal": 143.0,
+          "protein_g": 6.62,
+          "carbohydrate_g": 28.2,
+          "fat_g": 0.38,
+          "fiber_g": 2.7
+        }
+      },
+      {
+        "ingredient": "low-fat Greek yogurt",
+        "expected_fdc_id": 2705423,
+        "expected_description": "Yogurt, Greek, low fat milk, plain",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2536668,
+        "selected_description": "LOW-FAT GREEK YOGURT",
+        "selected_data_type": "Branded",
+        "matching_stage": "original_nlp",
+        "exact_id_match": false,
+        "classification": "Ambiguous",
+        "rationale": "Selected branded description omits plainness; its carbohydrate and calorie values differ substantially from the expected plain FNDDS yogurt.",
+        "expected_per_100g": {
+          "calories_kcal": 67.0,
+          "protein_g": 10.2,
+          "carbohydrate_g": 3.6,
+          "fat_g": 1.36,
+          "fiber_g": 0.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 125.0,
+          "protein_g": 6.25,
+          "carbohydrate_g": 17.19,
+          "fat_g": 3.12,
+          "fiber_g": 0.8
+        }
+      },
+      {
+        "ingredient": "unflavored whey protein",
+        "expected_fdc_id": 173180,
+        "expected_description": "Beverages, Protein powder whey based",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 2510560,
+        "selected_description": "WHEY PROTEIN 20 G POWDER, UNFLAVORED, UNFLAVORED",
+        "selected_data_type": "Branded",
+        "matching_stage": "original_nlp",
+        "exact_id_match": false,
+        "classification": "Ambiguous",
+        "rationale": "Selected record is an unflavored branded powder, but formulation and fiber/nutrient values differ; broad product identity is insufficient.",
+        "expected_per_100g": {
+          "calories_kcal": 351.8164435946463,
+          "protein_g": 78.13,
+          "carbohydrate_g": 6.25,
+          "fat_g": 1.56,
+          "fiber_g": 3.1
+        },
+        "selected_per_100g": {
+          "calories_kcal": 360.0,
+          "protein_g": 80.0,
+          "carbohydrate_g": 4.0,
+          "fat_g": 4.0,
+          "fiber_g": 0.0
+        }
+      },
+      {
+        "ingredient": "low-sodium soy sauce",
+        "expected_fdc_id": 2707443,
+        "expected_description": "Soy sauce, reduced sodium",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2707443,
+        "selected_description": "Soy sauce, reduced sodium",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 57.0,
+          "protein_g": 9.05,
+          "carbohydrate_g": 5.59,
+          "fat_g": 0.3,
+          "fiber_g": 0.7
+        },
+        "selected_per_100g": {
+          "calories_kcal": 57.0,
+          "protein_g": 9.05,
+          "carbohydrate_g": 5.59,
+          "fat_g": 0.3,
+          "fiber_g": 0.7
+        }
+      },
+      {
+        "ingredient": "fat-free Greek yogurt",
+        "expected_fdc_id": 2076798,
+        "expected_description": "FAT-FREE GREEK YOGURT",
+        "expected_data_type": "Branded",
+        "selected_fdc_id": 2076798,
+        "selected_description": "FAT-FREE GREEK YOGURT",
+        "selected_data_type": "Branded",
+        "matching_stage": "original_nlp",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 93.0,
+          "protein_g": 7.33,
+          "carbohydrate_g": 12.67,
+          "fat_g": 1.33,
+          "fiber_g": 0.7
+        },
+        "selected_per_100g": {
+          "calories_kcal": 93.0,
+          "protein_g": 7.33,
+          "carbohydrate_g": 12.67,
+          "fat_g": 1.33,
+          "fiber_g": 0.7
+        }
+      },
+      {
+        "ingredient": "whole black urad dal",
+        "expected_fdc_id": 2168881,
+        "expected_description": "WHOLE BLACK GRAM",
+        "expected_data_type": "Branded",
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": "original_nlp",
+        "exact_id_match": false,
+        "classification": "Missed match",
+        "rationale": "An expected FDC record exists, but matcher abstained.",
+        "expected_per_100g": {
+          "calories_kcal": 371.0,
+          "protein_g": 25.71,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": 25.7
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      },
+      {
+        "ingredient": "kadhai spice mix (crushed coriander seeds / dry red chili)",
+        "expected_fdc_id": null,
+        "expected_description": null,
+        "expected_data_type": null,
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": "original_nlp",
+        "exact_id_match": false,
+        "classification": "Correct abstention",
+        "rationale": "No expected match is labeled for this example; abstention is correct.",
+        "expected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      },
+      {
+        "ingredient": "onion-tomato gravy base",
+        "expected_fdc_id": null,
+        "expected_description": null,
+        "expected_data_type": null,
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": "original_nlp",
+        "exact_id_match": false,
+        "classification": "Correct abstention",
+        "rationale": "No expected match is labeled for this example; abstention is correct.",
+        "expected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      },
+      {
+        "ingredient": "mint-cilantro-yogurt chutney",
+        "expected_fdc_id": null,
+        "expected_description": null,
+        "expected_data_type": null,
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": "original_nlp",
+        "exact_id_match": false,
+        "classification": "Correct abstention",
+        "rationale": "No expected match is labeled for this example; abstention is correct.",
+        "expected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      },
+      {
+        "ingredient": "quinoa-rice blend",
+        "expected_fdc_id": null,
+        "expected_description": null,
+        "expected_data_type": null,
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": "original_nlp",
+        "exact_id_match": false,
+        "classification": "Correct abstention",
+        "rationale": "No expected match is labeled for this example; abstention is correct.",
+        "expected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      }
+    ],
+    "hybrid": [
+      {
+        "ingredient": "oats",
+        "expected_fdc_id": 2708489,
+        "expected_description": "Oats, raw",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2708489,
+        "selected_description": "Oats, raw",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 379.0,
+          "protein_g": 13.2,
+          "carbohydrate_g": 67.7,
+          "fat_g": 6.52,
+          "fiber_g": 10.1
+        },
+        "selected_per_100g": {
+          "calories_kcal": 379.0,
+          "protein_g": 13.2,
+          "carbohydrate_g": 67.7,
+          "fat_g": 6.52,
+          "fiber_g": 10.1
+        }
+      },
+      {
+        "ingredient": "quinoa",
+        "expected_fdc_id": 168874,
+        "expected_description": "Quinoa, uncooked",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 168874,
+        "selected_description": "Quinoa, uncooked",
+        "selected_data_type": "SR Legacy",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 367.82982791586994,
+          "protein_g": 14.12,
+          "carbohydrate_g": 64.16,
+          "fat_g": 6.07,
+          "fiber_g": 7.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 367.82982791586994,
+          "protein_g": 14.12,
+          "carbohydrate_g": 64.16,
+          "fat_g": 6.07,
+          "fiber_g": 7.0
+        }
+      },
+      {
+        "ingredient": "brown rice",
+        "expected_fdc_id": 2710789,
+        "expected_description": "Rice, brown, cooked, as ingredient",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2286928,
+        "selected_description": "BROWN RICE",
+        "selected_data_type": "Branded",
+        "matching_stage": "all_data_types",
+        "exact_id_match": false,
+        "classification": "Incorrect",
+        "rationale": "Expected FNDDS record is cooked brown rice; selected branded record is long-grain brown rice with a dry ingredient list. The per-100g energy/carbohydrate values are 124 kcal/25.9 g versus 378 kcal/75.56 g, consistent with different preparation states.",
+        "expected_per_100g": {
+          "calories_kcal": 124.0,
+          "protein_g": 2.45,
+          "carbohydrate_g": 25.9,
+          "fat_g": 1.12,
+          "fiber_g": 1.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 378.0,
+          "protein_g": 8.89,
+          "carbohydrate_g": 75.56,
+          "fat_g": 3.33,
+          "fiber_g": 6.7
+        }
+      },
+      {
+        "ingredient": "almonds",
+        "expected_fdc_id": 2707485,
+        "expected_description": "Almonds, NFS",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2707485,
+        "selected_description": "Almonds, NFS",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 598.0,
+          "protein_g": 21.0,
+          "carbohydrate_g": 21.0,
+          "fat_g": 52.5,
+          "fiber_g": 10.9
+        },
+        "selected_per_100g": {
+          "calories_kcal": 598.0,
+          "protein_g": 21.0,
+          "carbohydrate_g": 21.0,
+          "fat_g": 52.5,
+          "fiber_g": 10.9
+        }
+      },
+      {
+        "ingredient": "chia seeds",
+        "expected_fdc_id": 2707590,
+        "expected_description": "Chia seeds",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2707590,
+        "selected_description": "Chia seeds",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 486.0,
+          "protein_g": 16.5,
+          "carbohydrate_g": 42.1,
+          "fat_g": 30.7,
+          "fiber_g": 34.4
+        },
+        "selected_per_100g": {
+          "calories_kcal": 486.0,
+          "protein_g": 16.5,
+          "carbohydrate_g": 42.1,
+          "fat_g": 30.7,
+          "fiber_g": 34.4
+        }
+      },
+      {
+        "ingredient": "olive oil",
+        "expected_fdc_id": 2710186,
+        "expected_description": "Olive oil",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2710186,
+        "selected_description": "Olive oil",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 900.0,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 100.0,
+          "fiber_g": 0.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 900.0,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 100.0,
+          "fiber_g": 0.0
+        }
+      },
+      {
+        "ingredient": "hing",
+        "expected_fdc_id": null,
+        "expected_description": null,
+        "expected_data_type": null,
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": null,
+        "exact_id_match": false,
+        "classification": "Correct abstention",
+        "rationale": "No expected match is labeled for this example; abstention is correct.",
+        "expected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      },
+      {
+        "ingredient": "rajma",
+        "expected_fdc_id": 2707379,
+        "expected_description": "Kidney beans, NFS",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2707379,
+        "selected_description": "Kidney beans, NFS",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 177.0,
+          "protein_g": 8.06,
+          "carbohydrate_g": 21.2,
+          "fat_g": 6.97,
+          "fiber_g": 6.9
+        },
+        "selected_per_100g": {
+          "calories_kcal": 177.0,
+          "protein_g": 8.06,
+          "carbohydrate_g": 21.2,
+          "fat_g": 6.97,
+          "fiber_g": 6.9
+        }
+      },
+      {
+        "ingredient": "kasuri methi",
+        "expected_fdc_id": null,
+        "expected_description": null,
+        "expected_data_type": null,
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": null,
+        "exact_id_match": false,
+        "classification": "Correct abstention",
+        "rationale": "No expected match is labeled for this example; abstention is correct.",
+        "expected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      },
+      {
+        "ingredient": "kala namak (black salt)",
+        "expected_fdc_id": 2587261,
+        "expected_description": "BLACK SALT",
+        "expected_data_type": "Branded",
+        "selected_fdc_id": 2587261,
+        "selected_description": "BLACK SALT",
+        "selected_data_type": "Branded",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 0.0,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 0.0,
+          "fiber_g": 0.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 0.0,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 0.0,
+          "fiber_g": 0.0
+        }
+      },
+      {
+        "ingredient": "whole wheat flour (atta)",
+        "expected_fdc_id": 790085,
+        "expected_description": "Flour, whole wheat, unenriched",
+        "expected_data_type": "Foundation",
+        "selected_fdc_id": 790085,
+        "selected_description": "Flour, whole wheat, unenriched",
+        "selected_data_type": "Foundation",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 370.4588910133843,
+          "protein_g": 15.1,
+          "carbohydrate_g": 71.2,
+          "fat_g": 2.73,
+          "fiber_g": 10.6
+        },
+        "selected_per_100g": {
+          "calories_kcal": 370.4588910133843,
+          "protein_g": 15.1,
+          "carbohydrate_g": 71.2,
+          "fat_g": 2.73,
+          "fiber_g": 10.6
+        }
+      },
+      {
+        "ingredient": "ghee",
+        "expected_fdc_id": 171314,
+        "expected_description": "Butter, Clarified butter (ghee)",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 171314,
+        "selected_description": "Butter, Clarified butter (ghee)",
+        "selected_data_type": "SR Legacy",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 900.095602294455,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 100.0,
+          "fiber_g": 0.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 900.095602294455,
+          "protein_g": 0.0,
+          "carbohydrate_g": 0.0,
+          "fat_g": 100.0,
+          "fiber_g": 0.0
+        }
+      },
+      {
+        "ingredient": "degi mirch",
+        "expected_fdc_id": 171329,
+        "expected_description": "Spices, paprika",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 171329,
+        "selected_description": "Spices, paprika",
+        "selected_data_type": "SR Legacy",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 282.2657743785851,
+          "protein_g": 14.14,
+          "carbohydrate_g": 53.99,
+          "fat_g": 12.89,
+          "fiber_g": 34.9
+        },
+        "selected_per_100g": {
+          "calories_kcal": 282.2657743785851,
+          "protein_g": 14.14,
+          "carbohydrate_g": 53.99,
+          "fat_g": 12.89,
+          "fiber_g": 34.9
+        }
+      },
+      {
+        "ingredient": "carom seeds (ajwain)",
+        "expected_fdc_id": null,
+        "expected_description": null,
+        "expected_data_type": null,
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": null,
+        "exact_id_match": false,
+        "classification": "Correct abstention",
+        "rationale": "No expected match is labeled for this example; abstention is correct.",
+        "expected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      },
+      {
+        "ingredient": "dry soya chunks",
+        "expected_fdc_id": 2707451,
+        "expected_description": "Textured vegetable protein, dry",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2707451,
+        "selected_description": "Textured vegetable protein, dry",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 366.0,
+          "protein_g": 51.1,
+          "carbohydrate_g": 32.9,
+          "fat_g": 3.33,
+          "fiber_g": 17.5
+        },
+        "selected_per_100g": {
+          "calories_kcal": 366.0,
+          "protein_g": 51.1,
+          "carbohydrate_g": 32.9,
+          "fat_g": 3.33,
+          "fiber_g": 17.5
+        }
+      },
+      {
+        "ingredient": "moong dal, soaked overnight",
+        "expected_fdc_id": 174256,
+        "expected_description": "Mung beans, mature seeds, raw",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 174256,
+        "selected_description": "Mung beans, mature seeds, raw",
+        "selected_data_type": "SR Legacy",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 347.0363288718929,
+          "protein_g": 23.86,
+          "carbohydrate_g": 62.62,
+          "fat_g": 1.15,
+          "fiber_g": 16.3
+        },
+        "selected_per_100g": {
+          "calories_kcal": 347.0363288718929,
+          "protein_g": 23.86,
+          "carbohydrate_g": 62.62,
+          "fat_g": 1.15,
+          "fiber_g": 16.3
+        }
+      },
+      {
+        "ingredient": "low-fat paneer, crumbled",
+        "expected_fdc_id": 2705740,
+        "expected_description": "Cheese, paneer",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2705740,
+        "selected_description": "Cheese, paneer",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "nlp_fallback",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 299.0,
+          "protein_g": 15.9,
+          "carbohydrate_g": 22.5,
+          "fat_g": 15.5,
+          "fiber_g": 0.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 299.0,
+          "protein_g": 15.9,
+          "carbohydrate_g": 22.5,
+          "fat_g": 15.5,
+          "fiber_g": 0.0
+        }
+      },
+      {
+        "ingredient": "extra-firm tofu, cubed",
+        "expected_fdc_id": 174290,
+        "expected_description": "Tofu, extra firm, prepared with nigari",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 2310367,
+        "selected_description": "EXTRA-FIRM TOFU",
+        "selected_data_type": "Branded",
+        "matching_stage": "all_data_types",
+        "exact_id_match": false,
+        "classification": "Verified equivalent",
+        "rationale": "Both records identify extra-firm tofu. The selected Branded ingredient list is water, organic soybeans, calcium sulfate, and magnesium chloride (nigari is magnesium chloride); preparation and identity are compatible. Protein/fat/fiber are close per 100 g; selected energy is not reported and carbohydrate is 3.57 g vs 1.18 g.",
+        "expected_per_100g": {
+          "calories_kcal": 83.41300191204589,
+          "protein_g": 9.98,
+          "carbohydrate_g": 1.18,
+          "fat_g": 5.26,
+          "fiber_g": 1.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": 10.71,
+          "carbohydrate_g": 3.57,
+          "fat_g": 5.36,
+          "fiber_g": 1.2
+        }
+      },
+      {
+        "ingredient": "kala chana, soaked overnight and boiled",
+        "expected_fdc_id": 2134686,
+        "expected_description": "KALA CHANA",
+        "expected_data_type": "Branded",
+        "selected_fdc_id": 2054512,
+        "selected_description": "KALA CHANA",
+        "selected_data_type": "Branded",
+        "matching_stage": "nlp_fallback",
+        "exact_id_match": false,
+        "classification": "Ambiguous",
+        "rationale": "Both descriptions say KALA CHANA, but selected record lists black chickpeas while expected lists whole black gram. Fiber is 34.7 g vs 17.1 g/100 g and the label ingredient wording conflicts. Available evidence cannot confidently resolve whether these are equivalent pulses or different products.",
+        "expected_per_100g": {
+          "calories_kcal": 363.0,
+          "protein_g": 20.0,
+          "carbohydrate_g": 60.0,
+          "fat_g": 5.71,
+          "fiber_g": 17.1
+        },
+        "selected_per_100g": {
+          "calories_kcal": 368.0,
+          "protein_g": 16.84,
+          "carbohydrate_g": 66.32,
+          "fat_g": 4.21,
+          "fiber_g": 34.7
+        }
+      },
+      {
+        "ingredient": "kabuli chana, soaked and boiled",
+        "expected_fdc_id": 2707414,
+        "expected_description": "Chickpeas, NFS",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2707414,
+        "selected_description": "Chickpeas, NFS",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 211.0,
+          "protein_g": 8.23,
+          "carbohydrate_g": 25.5,
+          "fat_g": 8.91,
+          "fiber_g": 7.1
+        },
+        "selected_per_100g": {
+          "calories_kcal": 211.0,
+          "protein_g": 8.23,
+          "carbohydrate_g": 25.5,
+          "fat_g": 8.91,
+          "fiber_g": 7.1
+        }
+      },
+      {
+        "ingredient": "garlic, minced",
+        "expected_fdc_id": 2709786,
+        "expected_description": "Garlic, raw",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2709786,
+        "selected_description": "Garlic, raw",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 143.0,
+          "protein_g": 6.62,
+          "carbohydrate_g": 28.2,
+          "fat_g": 0.38,
+          "fiber_g": 2.7
+        },
+        "selected_per_100g": {
+          "calories_kcal": 143.0,
+          "protein_g": 6.62,
+          "carbohydrate_g": 28.2,
+          "fat_g": 0.38,
+          "fiber_g": 2.7
+        }
+      },
+      {
+        "ingredient": "low-fat Greek yogurt",
+        "expected_fdc_id": 2705423,
+        "expected_description": "Yogurt, Greek, low fat milk, plain",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 170903,
+        "selected_description": "Yogurt, Greek, plain, lowfat",
+        "selected_data_type": "SR Legacy",
+        "matching_stage": "all_data_types",
+        "exact_id_match": false,
+        "classification": "Verified equivalent",
+        "rationale": "Both records describe plain, low-fat Greek yogurt. Per 100 g: 67 vs 72.9 kcal, protein 10.2 vs 9.95 g, carbohydrates 3.6 vs 3.94 g, fat 1.36 vs 1.92 g, fiber 0 vs 0 g.",
+        "expected_per_100g": {
+          "calories_kcal": 67.0,
+          "protein_g": 10.2,
+          "carbohydrate_g": 3.6,
+          "fat_g": 1.36,
+          "fiber_g": 0.0
+        },
+        "selected_per_100g": {
+          "calories_kcal": 72.89674952198853,
+          "protein_g": 9.95,
+          "carbohydrate_g": 3.94,
+          "fat_g": 1.92,
+          "fiber_g": 0.0
+        }
+      },
+      {
+        "ingredient": "unflavored whey protein",
+        "expected_fdc_id": 173180,
+        "expected_description": "Beverages, Protein powder whey based",
+        "expected_data_type": "SR Legacy",
+        "selected_fdc_id": 2510560,
+        "selected_description": "WHEY PROTEIN 20 G POWDER, UNFLAVORED, UNFLAVORED",
+        "selected_data_type": "Branded",
+        "matching_stage": "all_data_types",
+        "exact_id_match": false,
+        "classification": "Incorrect",
+        "rationale": "Selected Branded ingredients contain whey concentrate, whey isolate, and micellar casein. The added casein makes this a whey/casein blend rather than the expected whey-based protein. Similar protein/calories do not establish identity; selected fiber is reported zero vs 3.1 g/100 g expected.",
+        "expected_per_100g": {
+          "calories_kcal": 351.8164435946463,
+          "protein_g": 78.13,
+          "carbohydrate_g": 6.25,
+          "fat_g": 1.56,
+          "fiber_g": 3.1
+        },
+        "selected_per_100g": {
+          "calories_kcal": 360.0,
+          "protein_g": 80.0,
+          "carbohydrate_g": 4.0,
+          "fat_g": 4.0,
+          "fiber_g": 0.0
+        }
+      },
+      {
+        "ingredient": "low-sodium soy sauce",
+        "expected_fdc_id": 2707443,
+        "expected_description": "Soy sauce, reduced sodium",
+        "expected_data_type": "Survey (FNDDS)",
+        "selected_fdc_id": 2707443,
+        "selected_description": "Soy sauce, reduced sodium",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 57.0,
+          "protein_g": 9.05,
+          "carbohydrate_g": 5.59,
+          "fat_g": 0.3,
+          "fiber_g": 0.7
+        },
+        "selected_per_100g": {
+          "calories_kcal": 57.0,
+          "protein_g": 9.05,
+          "carbohydrate_g": 5.59,
+          "fat_g": 0.3,
+          "fiber_g": 0.7
+        }
+      },
+      {
+        "ingredient": "fat-free Greek yogurt",
+        "expected_fdc_id": 2076798,
+        "expected_description": "FAT-FREE GREEK YOGURT",
+        "expected_data_type": "Branded",
+        "selected_fdc_id": 2705432,
+        "selected_description": "Yogurt, Greek, nonfat milk, fruit",
+        "selected_data_type": "Survey (FNDDS)",
+        "matching_stage": "all_data_types",
+        "exact_id_match": false,
+        "classification": "Verified equivalent",
+        "rationale": "Expected Branded ingredients describe nonfat Greek yogurt with a mango/pineapple fruit preparation; selected Survey record is Greek nonfat yogurt with fruit. Identity, nonfat modifier, and fruit form are compatible. Values differ moderately per 100 g (93 vs 83 kcal; protein 7.33 vs 9.21 g; carbs 12.67 vs 10.8 g; fat 1.33 vs 0.34 g; fiber 0.7 vs 0.1 g), so retain the evidence in the CSV.",
+        "expected_per_100g": {
+          "calories_kcal": 93.0,
+          "protein_g": 7.33,
+          "carbohydrate_g": 12.67,
+          "fat_g": 1.33,
+          "fiber_g": 0.7
+        },
+        "selected_per_100g": {
+          "calories_kcal": 83.0,
+          "protein_g": 9.21,
+          "carbohydrate_g": 10.8,
+          "fat_g": 0.34,
+          "fiber_g": 0.1
+        }
+      },
+      {
+        "ingredient": "whole black urad dal",
+        "expected_fdc_id": 2168881,
+        "expected_description": "WHOLE BLACK GRAM",
+        "expected_data_type": "Branded",
+        "selected_fdc_id": 2168881,
+        "selected_description": "WHOLE BLACK GRAM",
+        "selected_data_type": "Branded",
+        "matching_stage": "all_data_types",
+        "exact_id_match": true,
+        "classification": "Exact match",
+        "rationale": "Selected FDC ID exactly matches the expected validation ID.",
+        "expected_per_100g": {
+          "calories_kcal": 371.0,
+          "protein_g": 25.71,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": 25.7
+        },
+        "selected_per_100g": {
+          "calories_kcal": 371.0,
+          "protein_g": 25.71,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": 25.7
+        }
+      },
+      {
+        "ingredient": "kadhai spice mix (crushed coriander seeds / dry red chili)",
+        "expected_fdc_id": null,
+        "expected_description": null,
+        "expected_data_type": null,
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": null,
+        "exact_id_match": false,
+        "classification": "Correct abstention",
+        "rationale": "No expected match is labeled for this example; abstention is correct.",
+        "expected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      },
+      {
+        "ingredient": "onion-tomato gravy base",
+        "expected_fdc_id": null,
+        "expected_description": null,
+        "expected_data_type": null,
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": null,
+        "exact_id_match": false,
+        "classification": "Correct abstention",
+        "rationale": "No expected match is labeled for this example; abstention is correct.",
+        "expected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      },
+      {
+        "ingredient": "mint-cilantro-yogurt chutney",
+        "expected_fdc_id": null,
+        "expected_description": null,
+        "expected_data_type": null,
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": null,
+        "exact_id_match": false,
+        "classification": "Correct abstention",
+        "rationale": "No expected match is labeled for this example; abstention is correct.",
+        "expected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      },
+      {
+        "ingredient": "quinoa-rice blend",
+        "expected_fdc_id": null,
+        "expected_description": null,
+        "expected_data_type": null,
+        "selected_fdc_id": null,
+        "selected_description": null,
+        "selected_data_type": null,
+        "matching_stage": null,
+        "exact_id_match": false,
+        "classification": "Correct abstention",
+        "rationale": "No expected match is labeled for this example; abstention is correct.",
+        "expected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        },
+        "selected_per_100g": {
+          "calories_kcal": null,
+          "protein_g": null,
+          "carbohydrate_g": null,
+          "fat_g": null,
+          "fiber_g": null
+        }
+      }
+    ]
+  },
+  "equivalence_metrics": {
+    "nlp": {
+      "counts": {
+        "Exact match": 16,
+        "Verified equivalent": 0,
+        "Incorrect": 2,
+        "Ambiguous": 4,
+        "Correct abstention": 7,
+        "Missed match": 1
+      },
+      "denominator": 26,
+      "TP": 16,
+      "FP": 2,
+      "TN": 7,
+      "FN": 1,
+      "accuracy": 0.8846153846153846,
+      "precision": 0.8888888888888888,
+      "recall": 0.9411764705882353,
+      "f1": 0.9142857142857143
+    },
+    "hybrid": {
+      "counts": {
+        "Exact match": 17,
+        "Verified equivalent": 3,
+        "Incorrect": 2,
+        "Ambiguous": 1,
+        "Correct abstention": 7,
+        "Missed match": 0
+      },
+      "denominator": 29,
+      "TP": 20,
+      "FP": 2,
+      "TN": 7,
+      "FN": 0,
+      "accuracy": 0.9310344827586207,
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1": 0.9523809523809523
+    }
+  }
+}
