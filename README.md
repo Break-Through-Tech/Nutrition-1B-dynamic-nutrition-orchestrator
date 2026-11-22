@@ -4,10 +4,10 @@
 
 | Name             | GitHub Handle | Contribution                                                             | LinkedIn Account                                 |
 |------------------|---------------|--------------------------------------------------------------------------|--------------------------------------------------|
-| Shirina Daniel   | @shirinadan   | Deterministic macro calculation, recipe scaling, dietary restriction filtering, benchmark evaluation, automated testing | www.linkedin.com/in/shirinadan/                  |
-| Lakshmi Jinkala  | @lakshmijinkala | Set up vector DB, Semantic ingredient retrieval | www.linkedin.com/in/lakshmijinkala               |
-| Sadia Fathima    | @sluggysadi | Build the local recipe seed database, build the Streamlit UI | https://www.linkedin.com/in/sadiafathima         |
-| Gesell Gonzalez  | @ggesell17 | Build the USDA FoodData Central API and incorporate Pydantic schemas | www.linkedin.com/in/gesell-gonzalez              |
+| Shirina Daniel   | @shirinadan   | Deterministic macro calculation, recipe scaling, dietary restriction filtering, benchmark evaluation, automated testing, build the Streamlit UI | https://www.linkedin.com/in/shirinadan/                  |
+| Lakshmi Jinkala  | @lakshmijinkala | Set up vector DB, Semantic ingredient retrieval | https://www.linkedin.com/in/lakshmijinkala               |
+| Sadia Fathima    | @sluggysadi | Build the local recipe seed database and Multi-graph Agent | https://www.linkedin.com/in/sadiafathima         |
+| Gesell Gonzalez  | @ggesell17 | Build the USDA FoodData Central API and incorporate Pydantic schemas | https://www.linkedin.com/in/gesell-gonzalez              |
 
 ---
 
@@ -75,8 +75,6 @@ The project overview also lists three success criteria:
 
 Source: [Challenge-Project-Overview.md](Challenge-Project-Overview.md).
 
-Important note: these are project targets and requirements, not all of them are independently reproduced in the current code output. The only metric verified directly from the repo state was the F1 evaluation result in the Results section below.
-
 ---
 
 ## 📊 **Data Exploration**
@@ -107,11 +105,20 @@ The relevant implementation files are:
 
 - [src/nutrition_engine/ingredient_matcher.py](src/nutrition_engine/ingredient_matcher.py): normalization, synonym mapping, composite detection, candidate scoring, and accept-threshold decision.
 - [src/nutrition_engine/usda_search.py](src/nutrition_engine/usda_search.py): adaptation layer between the search API and matcher Candidate objects.
+- [src/nutrition_engine/semantic_ingredient_search.py](src/nutrition_engine/semantic_ingredient_search.py): local semantic candidate retrieval over ingredient names or individual recipe occurrences.
 - [src/nutrition_engine/macro_math.py](src/nutrition_engine/macro_math.py): caloric and macronutrient totals from per-100g values.
 - [src/nutrition_engine/meal_planner.py](src/nutrition_engine/meal_planner.py): diet-aware recipe selection and weekly planning logic.
 - [src/nutrition_engine/benchmarks.py](src/nutrition_engine/benchmarks.py): benchmark cases and evaluation helper functions.
 
 The project’s acceptance metric is an F1 score computed on a validation set of 30 items, with a target greater than 90%. The code enforces this in [src/nutrition_engine/matcher_eval.py](src/nutrition_engine/matcher_eval.py), where `meets_target` is defined as `f1 > 0.90`.
+
+### Semantic retrieval
+
+The project also maintains two local vector collections for candidate retrieval. The `recipe_ingredients` collection contains 126 unique ingredient names, while `recipe_ingredient_occurrences` preserves 165 recipe-specific ingredient slots. The contextual collection stores recipe name, cuisine, meal type, diet tags, neighboring ingredients, ingredient and recipe notes, quantities, source document, and instructions. Both collections use `sentence-transformers/all-MiniLM-L6-v2` and cosine distance.
+
+Source: [src/nutrition_engine/semantic_ingredient_search.py](src/nutrition_engine/semantic_ingredient_search.py), [scripts/build_ingredient_vector_index.py](scripts/build_ingredient_vector_index.py), and [docs/task9_contextual_semantic_evaluation.md](docs/task9_contextual_semantic_evaluation.md).
+
+Semantic retrieval returns recipe candidates only. A similarity score ranks candidates; it does not confirm ingredient identity or assign a USDA FDC ID.
 
 ---
 
@@ -147,42 +154,78 @@ The repository also contains benchmark targets and constants that are important 
 
 ---
 
-### Honest limitations
+### Evaluation reports in `evaluation_results/`
+
+The [evaluation_results/](evaluation_results/) folder contains saved artifacts for two distinct evaluations:
+
+- **USDA ingredient matching:** exact FDC-ID comparisons and hybrid-matcher reviews.
+- **Semantic ingredient retrieval:** candidate rankings for local recipe ingredient names and recipe-context occurrences.
+
+These folders should not be read as a single merged accuracy result. Ingredient matching uses labeled USDA validation records, while semantic retrieval uses candidate ranking observations and does not currently have an independently labeled precision/recall benchmark.
+
+#### Matching: offline current-code result
+
+Running the following command against the checked-in validation set reproduced a 90.48% F1 score:
+
+```bash
+python scripts/evaluate_matcher.py
+```
+
+- Validation rows: 30
+- TP: 19
+- FP: 4
+- FN: 0
+- TN: 7
+- Precision: 82.61%
+- Recall: 100.00%
+- F1: 90.48%
+- Target (>90%): MET
+
+These numbers are direct current-code output from [scripts/evaluate_matcher.py](scripts/evaluate_matcher.py), using [data/validation_set.csv](data/validation_set.csv) and [data/usda_candidates.json](data/usda_candidates.json).
+
+#### Matching: saved live-comparison report
+
+The Task 6B saved report compares the original NLP matcher with an SR Legacy-first hybrid under exact-FDC-ID scoring:
+
+- Original NLP: 82.05% F1
+- Task 6B hybrid: 56.25% F1
+
+Both values cover all 30 validation rows. They are saved-report values, not results from the offline snapshot run above. The report also documents a separate post-hoc equivalence review: 91.43% F1 for NLP on 26 decisive cases and 82.35% F1 for hybrid on 27 decisive cases. These manual equivalence metrics use different denominators and should not be substituted for the exact-ID results.
+
+Source: [evaluation_results/task_6b/task6b_final_20261118T004052Z/final_evaluation_report.md](evaluation_results/task_6b/task6b_final_20261118T004052Z/final_evaluation_report.md).
+
+#### Semantic retrieval: saved and reproduced observations
+
+The Task 9 evaluation uses six qualitative ingredient queries: `moong dal`, `rajma`, `atta`, `ajwain`, `kala namak`, and `paneer`. It compares Phase 1 keyword candidates, the ingredient-only semantic index, and the contextual occurrence index. It reports no precision, recall, F1, or top-k accuracy because those measures require an independently reviewed retrieval label set.
+
+For example, adding the supplied recipe context for `rajma` moved the exact `rajma` occurrence to rank 1. It also ranked `oil` and `low-fat paneer` from the same recipe at ranks 2 and 3, demonstrating that recipe context can add useful provenance but may promote unrelated neighboring ingredients.
+
+Source: [evaluation_results/task_9/contextual_semantic_retrieval/evaluation_summary.md](evaluation_results/task_9/contextual_semantic_retrieval/evaluation_summary.md), [evaluation_results/task_9/contextual_semantic_retrieval/retrieval_comparison.md](evaluation_results/task_9/contextual_semantic_retrieval/retrieval_comparison.md), and [docs/task9_contextual_semantic_evaluation.md](docs/task9_contextual_semantic_evaluation.md).
+
+The `rajma` context-aware result was independently reproduced from the current code:
+
+- `rajma`: similarity 0.8470
+- `oil`: similarity 0.8186
+- `low-fat paneer`: similarity 0.8180
+
+The ingredient-only reproduction for `rajma` returned `rajma` at 1.0000, `rajma, soaked overnight` at 0.7139, and `kasuri methi` at 0.4412. These similarity values are ranking signals, not confidence estimates or identity evidence.
+
+---
+
+### Limitations
 
 - **The result clears the target narrowly.** The measured F1 is 90.48%, just 0.48 percentage points above the 90% threshold.
-- **Some errors concern record choice, not ingredient identification.** For extra-firm tofu, low-fat Greek yogurt, and whey protein, the matcher found the intended food but selected a branded record instead of an available lab-analyzed record. Protein values for extra-firm tofu vary from 5.88 to 9.98 g across records, so the evaluation treats the curated record as the correct match.
+- **Some errors concern record choice, not ingredient identification.** For extra-firm tofu, low-fat Greek yogurt, and whey protein, the matcher found the intended food but selected a branded record instead of an available lab-analyzed record. 
 - **The labels include judgment calls.** When multiple USDA records are defensible, one was selected for the validation set, with the rationale documented in the `notes` column of [data/validation_set.csv](data/validation_set.csv).
-- **USDA records are unavailable for hing, kasuri methi, and ajwain.** The validation set marks these ingredients as having no correct record, and the matcher declines them. Recipes that use them need a documented fallback because USDA cannot supply their nutrition values.
-- **Further keyword tuning has not improved the total error count.** Later rounds traded one error for another, motivating the semantic-retrieval approach planned for Task 9.
+- **Validation set has no correct labeled record for hing, kasuri methi, and ajwain hing, kasuri methi, and ajwain.** The validation set marks these ingredients as having no correct record, and the matcher declines them. 
+- **Semantic retrieval is candidate generation, not FDC-ID matching.** The Task 9 reports show useful local variants and recipe provenance, but similarity does not establish identity or nutrient equivalence.
 
 ---
 
 ## 🚀 **Next Steps**
-
-TODO: Finalize stakeholder-ready narrative metrics and add a polished summary section once a full end-to-end planner run is validated.
-
-TODO: Add a license file if repository licensing is required by the Challenge Advisor or hosting organization.
-
-TODO: If a UI is added, document the exact run steps and screenshots in this README.
-
-The immediate repository facts support the following next step: improve the matcher by reviewing the remaining false positives shown in the evaluation output and by expanding the label set or synonym rules as needed.
-
----
-
-## 📝 **License**
-
-TODO: Add the project license file and link it here. No license file was found in the repository root during review.
-
----
-
-## 📄 **References** (Optional but encouraged)
-
-The repo includes the following source material for background and project framing:
-
-- [Challenge-Project-Overview.md](Challenge-Project-Overview.md)
-- [README.md](README.md)
-- [src/nutrition_engine/ingredient_matcher.py](src/nutrition_engine/ingredient_matcher.py)
-- The challenge overview links to additional external readings and resources, including USDA API documentation and research papers.
+- Work towards recipe generation, and overall incorporation of more recipes. 
+- Improve the matcher by reviewing the remaining false positives shown in the evaluation output.
+- Expand the label set or synonym rules as needed.
 
 ---
 
